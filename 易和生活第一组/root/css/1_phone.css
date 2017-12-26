@@ -1,0 +1,121 @@
+#p-self-right {
+	vertical-align:top;
+	width: 985px;
+	height: auto;
+	margin-left:21px ;
+	margin-bottom:40px;
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	background-color: white;
+}
+#p-self-wrapper {
+	width: 1190px;
+	margin: 0 auto;
+	height: auto;
+}
+/*兑换积分标题*/
+.p-adress-title {
+	padding: 15px 20px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #d2d2d2;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color:#008de1;
+}
+#p-phone {
+	padding: 40px 0 30px 40px;
+	width:945px;
+}
+#p-phone input {
+	width:305px;
+	height:40px;
+	line-height: 40px;
+	font-size: 18px;
+	text-indent: 20px;
+	background-color: #f9f9f9;
+	border:1px solid #d3d3d3;
+	outline: none;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+#p-phone #u-yzm {
+	width:110px;
+}
+#p-yzm-img {
+	vertical-align: top;
+	display: inline-block;
+	width:80px;
+	height: 34px;
+	margin: 0 15px;
+	background: url(../images/1-yzm.jpg) no-repeat center;
+}
+.p-look {
+	color: #ec6a17;
+	font-size: 18px;
+}
+#p-phone button {
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+	border: none;
+	color:white;
+}
+#p-yzmDiv {
+	position: relative;
+	width:307px;
+}
+#p-get-yzm {
+	width:100px;
+	line-height: 32px;
+	height: 32px;
+	background-color: #008DE1;
+	position: absolute;
+	top: 5px;
+	right:5px;
+}
+#p-bang {
+	background-color: #EC6A17;
+	width:170px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 6px;
+}
+   #p-meng-div {
+        display: none;
+        position: fixed;
+        width:455px;
+        height: 180px;
+        opacity: .9;
+        background-color:#7f7f7f;
+        z-index: 1000;
+    }
+    #p-meng-show {
+        z-index: 1001;
+        display: none;
+        position: fixed;
+        width: 260px;
+        height: 60px;
+        text-align: center;
+    }
+     #p-meng-show > h2 {
+        height:60px;
+        line-height: 60px;
+        color: white;  
+        font-size:26px;    
+     }
+     #p-meng-show > h2  >span {
+     	vertical-align: top;
+     	display:inline-block;
+     	height: 60px;
+     	width:60px;
+     	margin-right:px;
+     	background: url(../images/成功.png) no-repeat center;
+     }
+
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+/*个人中心公共部分*/
+#p-selfCenter {
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+#p-self-wrapper {
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*height: 700px;*/
+}
+/*左边*/
+#p-self-left {
+	display: inline-block;
+	/*height: 650px;*/
+	width: 175px;
+	border: 1px solid #d2d2d2;
+}
+#p-self-left .p-title {
+	width: 175px;
+	height: 55px;
+	border-bottom: 1px solid #d2d2d2;
+	text-indent: 20px;
+	font-size: 18px;
+	line-height: 55px;
+	letter-spacing: 1px;
+}
+#p-self-left >.p-title >.p-icon{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#p-self-left >.p-title >.p-icon {
+	background:url(../images/l-shop_03.png);	
+}
+#p-self-left .p-icon1 {
+	vertical-align: top;
+	margin-left: 10px;
+	background:url(../images/arror1.png) no-repeat center;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.p-self-firstList>li {
+	height: 35px;
+	line-height: 35px;
+	margin: 0 20px;
+	text-align:left;
+	font-size: 14px;
+}
+.p-self-firstList>li:nth-child(1) {
+	height: 40px;
+	line-height: 40px;
+}
+.p-self-firstList>li:nth-child(1) >span {
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+#p-self-left >.p-self-firstList >li>a:hover {
+	color:#ec6b18;
+	text-decoration: underline;
+}
+.l-new {
+	color:#ec6b18;
+	text-decoration: underline;
+}
+/*个人中心右边部分*/
+#p-self-right {
+	vertical-align: top;
+	/*height: 548px;*/
+	width: 985px;
+	margin-left: 20px;
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	/*font-size: 16px;*/
+}
+.l-about {
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 50px;
+}
+h2 {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 60px;
+}
+#p-self-right .l-title {
+	margin-left: 275px;
+	margin-top: 27px;
+	margin-bottom: 35px;
+	font-size: 16px;
+}
+#p-self-right .l-title span {
+	margin-right: 175px;
+}
+.l-about img {
+	/*margin-top: 35px;*/
+	margin-bottom: 35px;
+}
+.l-about p {
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 40px;
+	text-indent: 32px;
+}
+
+
+
+
+#footer {
+	margin-top: 40px;
+	
+}
+.foot-top {
+	background-color: rgb(242,242,242);
+}
+
+
+
+
+
+

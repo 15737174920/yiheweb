@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>易和生活港</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/applyfor.css">
+    <script type="text/javascript" src=""></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <!--<script src="../js/geo.js"></script>-->
+
+</head>
+<body>
+<!--易和生活港 Header  公用部分 引用base.css-->
+<div id="header">
+    <!--topnav-->
+    <div class="top-nav">
+        <div class="type-area">
+            <div class="select-city top-nav-left">
+                <p>所在城市: <a href="">郑州</a></p>
+            </div>
+            <ul class="top-nav-right">
+                <li><a href="" id="login">登录</a></li>
+                <li><a href="" id="register">注册</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的订单</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的消息</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我是商家</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">400-100-0907</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--head-nav-->
+    <div class="head-nav type-area">
+        <!--logo-->
+        <div class="logo">
+            <a href=""><img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <!--search-->
+        <div id="search">
+
+            <ul class="shop">
+                <li class="actived yh-shopli">商家</li>
+                <li class="yh-shopli">商店</li>
+            </ul>
+
+            <div class="search-input">
+                <input type="text" class="keywords" />
+                <button class="search-btn"><i class="search-icon"></i></button>
+            </div>
+
+            <div class="yh-hot">
+                <p class="hot"> <span >热门 :</span><a href="">烤肉</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+
+                <p class="hot none"> <span>热门  :</span><a href="">烤鸡</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+            </div>
+        </div>
+        <div class="shop-cart">
+            <div><i class="cart-ico1"></i><a href="">我的易和</a><i class="cart-ico3"></i></div>
+            <div><i class="cart-ico2"></i><a href="">购物车</a><i class="cart-ico3"></i></div>
+        </div>
+    </div>
+
+    <div class="main-nav type-area">
+        <div class="first-meau">
+            <h3 class="fir-h3">行业分类<i class="firs-ic1 fir1.rot"></i></h3>
+            <div class="meau-drop">
+                <ul class="firs">
+                    <li class="fir-item"><a href="">餐饮</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">服饰</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">娱乐</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">家具</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">零售</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">日化</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">建材</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">酒店</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">旅游</a><i class="firs-ic2"></i></li>
+                </ul>
+                <ul class="sub-meau">
+                    <li class="item-list active">
+                        <div>
+                            <a href="">火锅</a>
+                            <a href="">自助餐</a>
+                            <a href="">小吃快餐</a>
+                            <a href="">日韩料理</a>
+                            <a href="">西餐</a>
+                            <a href="">烧烤烧肉</a>
+                            <a href="">东北菜</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list ">
+                        <div>
+                            <a href="">男装</a>
+                            <a href="">凉鞋凉拖</a>
+                            <a href="">潮流女包</a>
+                            <a href="">精品男包</a>
+                            <a href="">功能箱包</a>
+                            <a href="">女装</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list">
+                        <div>
+                            <a href="">桌游/电玩</a>
+                            <a href="">运动健身</a>
+                            <a href="">足疗按摩</a>
+                            <a href="">洗浴汗蒸</a>
+                            <a href="">温泉</a>
+                            <a href="">DIY手工</a>
+                            <a href="">密室逃脱</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">成套家具</a>
+                            <a href="">床类柜类</a>
+                            <a href="">床垫</a>
+                            <a href="">沙发桌类</a>
+                            <a href="">椅凳架</a>
+                            <a href="">箱类</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">超市</a>
+                            <a href="">水果生鲜</a>
+                            <a href="">日用品</a>
+                            <a href="">百货</a>
+                            <a href="">配件</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">面部护理</a>
+                            <a href="">洗发护发</a>
+                            <a href="">身体护理</a>
+                            <a href="">口腔护理</a>
+                            <a href="">女性护理</a>
+                            <a href="">香水彩妆</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">基础建材</a>
+                            <a href="">卫浴洁具</a>
+                            <a href="">厨卫电器</a>
+                            <a href="">卫浴五金</a>
+                            <a href="">地板地暖</a>
+                            <a href="">灯具开关</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">经济型酒店</a>
+                            <a href="">豪华酒店</a>
+                            <a href="">主题酒店</a>
+                            <a href="">度假酒店</a>
+                            <a href="">公寓型酒店</a>
+                            <a href="">青年旅社</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">温泉</a>
+                            <a href="">景点主题</a>
+                            <a href="">公园</a>
+                            <a href="">水上公园</a>
+                            <a href="">动植物园</a>
+                            <a href="">海洋馆</a>
+                            <a href="">展览馆</a>
+                            <a href="">游船</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="second-meau">
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="" class="top-join">精选品牌</a></li>
+            <li><a href="">今日特价</a></li>
+            <li><a href="">积分商城</a></li>
+            <li><a href="p_addYlife.html">加入易和</a></li>
+            <li class="online-message">
+                <a href="">在线客服</a>
+                <div class="tooltip">
+                    <a href="">QQ客服1</a>
+                    <a href="">QQ客服2</a>
+                    <a href="">QQ客服3</a>
+                    <img src="../images/code.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!---------------------------------------------------------------------------------------------------->
+<!--content-->
+<!--申请入驻-->
+<div class="apply-content type-area">
+    <h3 class="apply-tit">您当前的位置: <a href="../index.html">首页</a> > <span class="apply-tit">申请入驻</span></h3>
+    <div class="settled">
+        <div class="settled-body">
+            <div class="step" style="width: 900px;">
+                <div class="group">1、提交资料</div>
+                <i class="icon arrow2"></i>
+
+                <div class="group">2、确认协议</div>
+                <i class="icon  arrow3"></i>
+
+                <div class="group s1">3、支付保证金</div>
+                <i class="icon arrow1"></i>
+
+                <div class="group">4、审核入驻</div>
+            </div>
+
+            <div class="order-wrap">
+                <div class="center">
+                    <div class="order-price" style="height: auto;">
+                        <span class="price">应付金额：<span>1000</span>（在线支付）</span>
+                    </div>
+                    <div class="order-price line">
+                        <span class="price">支付平台</span>
+                    </div>
+                    <div class="payment-list">
+                        <label for="alipay"><input type="radio" id="alipay" name="pay"> <i class="al"></i></label>
+                        <label for="weixin"><input type="radio" id="weixin" name="pay"><i class="wx"></i></label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button  class="send" href="" id="queren-1" style="border: none;outline: none">立即支付</button>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+<!--<h1 style="height: 1000px;"></h1>-->
+<!---------------------------------------------------------------------------------------------------->
+<!--footer-->
+<div id="footer">
+
+    <div class="foot-top">
+        <ul class="type-area">
+            <li>
+                <a href=""><i class="f-p1"></i>正品保障</a>
+            </li>
+            <li>
+                <a href="" ><i class="f-p2"></i>全程跟踪</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p3"></i>客户监督</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p4"></i>售后无忧</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p5"></i>准时到达</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-center type-area">
+        <div class="foot-logo">
+            <a href=""><img src="../images/footer_logo.png" alt=""></a>
+        </div>
+        <div class="foot-code">
+            <div class="code left">
+                <img src="../images/code.jpg" alt="">
+                <h4><i class="f-p6"></i>Android下载</h4>
+            </div>
+            <div class="code right">
+                <img src="../images/code1.png" alt="">
+                <h4><i class="f-p7"></i>IOS下载</h4>
+            </div>
+        </div>
+        <ul class="foot-nav">
+            <li>
+                <h4>关于易和</h4>
+                <a href="">新用户注册</a>
+                <a href="">在线下单</a>
+                <a href="">支付方式</a>
+            </li>
+            <li>
+                <h4>配送说明</h4>
+                <a href="">运费说明</a>
+                <a href="">运费方式</a>
+                <a href="">发票说明</a>
+            </li>
+            <li>
+                <h4>售后服务</h4>
+                <a href="">退换货规则</a>
+                <a href="">服务承诺保障</a>
+                <a href="">验货与签收</a>
+            </li>
+            <li>
+                <h4>加盟易和</h4>
+                <a href="">加盟条款</a>
+                <a href="">公司介绍</a>
+                <a href="">积分介绍</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-bottom">
+        <div class="type-area">
+            <p class="copyright">版权所有 © 2016易和生活港 保留所有权利 | 鲁ICP备：16022180号-1</p>
+            <p>易和生活 众享品质</p>
+            <p><a href="">北京澳环科技提供技术支持</a></p>
+        </div>
+        <img class="cmzz" src="../images/cmzz.gif" alt="cmzz">
+    </div>
+
+</div>
+
+
+
+
+<style type="text/css">
+    #p-meng-div {
+        display: none;
+        position: absolute;
+        top:0;
+        left:0;
+        opacity: .7;
+        background-color: gray;
+        z-index: 1000;
+    }
+    #p-meng-show {
+        z-index: 1001;
+        display: none;
+        position: fixed;
+        width: 585px;
+        height: 160px;
+        padding:95px 35px 85px 35px;
+        text-align: center;
+        background-color:white;
+    }
+    #p-meng-show > h2 {
+        height: 38px;
+        line-height: 38px;
+        font-size: 36px;
+        letter-spacing: 1px;
+        color:#ec6b18;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    #p-meng-show > p {
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    #p-meng-show > button {
+        display: inline-block;
+        width: 170px;
+        height: 60px;
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        text-align: center;
+        padding: 5px 35px;
+    }
+    #p-meng-looser, #p-meng-sure  {
+        background-color:#999999;
+    }
+    #p-meng-show > button >span {
+        font-size: 16px;
+    }
+    #p-meng-show > button:hover {
+        background-color: #ec6b18;
+    }
+</style>
+
+
+
+<div id="p-meng-div">
+</div>
+<div id="p-meng-show">
+    <h2>使用平台支付</h2>
+    <p>请您在新打开的网上银行页面进行支付,支付完成请不要关闭该窗口</p>
+    <button id="p-meng-sure"><span>已经完成支付</span><br>查看订单详情</button>
+    <button id="p-meng-looser"><span>支付失败</span><br>更换支付方式</button>
+</div>
+
+
+<script type="text/javascript">
+    var sure = document.getElementById('queren-1');
+    var HTML=document.getElementsByTagName('html')[0];
+    var hw=document.documentElement.clientWidth/2-655/2;
+    var hh=document.documentElement.clientHeight/2-440/2;
+    var p_meng = document.getElementById('p-meng-div');
+    var p_mengShow = document.getElementById('p-meng-show');
+    var p_width =  document.body.scrollWidth;
+    var p_height =  document.body.scrollHeight;
+    sure.onclick = function() {
+        p_meng.style.display = 'block';
+        p_mengShow.style.display = 'block';
+        p_meng.style.width = p_width+'px';
+        p_meng.style.height =p_height+ 'px';
+        p_mengShow.style.left=hw+'px';
+        p_mengShow.style.top=hh+'px';
+    }
+</script>
+<script type="text/javascript">
+    $('#p-meng-sure').click(function () {
+        window.location = '../l-index10.html'
+    });
+    $('#p-meng-looser').click(function () {
+        $('#p-meng-div').css("display",'none');
+        $('#p-meng-show').css("display",'none');
+    })
+</script>
+</body>
+
+</html>

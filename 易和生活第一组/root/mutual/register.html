@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>易和生活港</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reglog.css">
+    <script type="text/javascript" src=""></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/index.js"></script>
+
+</head>
+<body>
+<!--易和生活港 Header  公用部分 引用base.css-->
+<div id="header">
+    <!--topnav-->
+    <div class="top-nav">
+        <div class="type-area">
+            <div class="select-city top-nav-left">
+                <p>所在城市: <a href="">郑州</a></p>
+            </div>
+            <ul class="top-nav-right">
+                <li><a href="">欢迎光临易和生活港</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我是商家</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">400-100-0907</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="head-nav type-area">
+        <div class="logo reg-logo">
+            <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <div class="login-mark">会员注册</div>
+    </div>
+
+</div>
+
+<!------------------------------------------------------------------------------------------------->
+<!--content-->
+<div class="reg-wrap">
+<div class="reg-content type-area">
+    <div class="reg-left">
+        <a href=""><img src="../images/reg.png" alt=""></a>
+    </div>
+    
+    <div class="reg-right">
+        <div class="form-mark">
+            <div class="label">注册</div>
+        </div>
+        <div class="form-list">
+            <input class="iphone" id="iphone" placeholder="请输入手机号" type="text">
+            <div  id="checkphone"><i class="icon right"></i></div>
+        </div>
+        <div class="form-space warning" id="iphoneError"></div>
+
+        <div class="form-list">
+            <input type="password" class="iphone" id="password" placeholder="请输入密码（6-20位号码字符）">
+            <div class="" id="passwordSuccess"><i class="icon right"></i></div>
+        </div>
+        <div class="form-space warning" id="passwordError"></div>
+
+
+        <div class="form-list">
+            <input type="password" class="iphone" id="repassword" placeholder="请再次输入密码确认">
+            <div class="" id="repasswordSuccess"><i class="icon right"></i></div>
+        </div>
+        <div class="form-space warning" id="repasswordError"></div>
+        <div class="form-list">
+            <input class="checkcode" id="checkcode" placeholder="验证码" type="text">
+            <a href="javascript:void(0);" class="code" style="margin-right:5px"><img id="code" src="" alt="" onclick="code();"></a>
+            <a href="javascript:void(0);" class="other-code">看不清，换一张</a>
+        </div>
+        <div class="form-space"></div>
+
+        <div class="form-list">
+            <input class="iphone" id="iphoneCode" placeholder="手机验证码" type="text">
+            <div class="obtain">
+                <a href="javascript:void(0);" onclick="note()" id="btnSendCode">获取验证码</a>
+            </div>
+        </div>
+        <div class="form-space"></div>
+
+        <div class="form-list">
+            <label class="auto-login">
+                <input type="radio" checked="">
+                <a href="">我已阅读并同意《易和用户使用协议》</a>
+            </label>
+        </div>
+
+        <div class="form-list button">
+            <a href="login.html"><button class="logined">登陆</button></a>
+            <button class="register">会员注册</button>
+        </div>
+        <div class="third-party">
+            <div class="text">用合作网站登录</div>
+            <div class="list">
+                <a href="" class="icon weixin"></a>
+                <a href="" class="icon qq"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------->
+
+
+<!--<h1 style="height: 1000px;"></h1>-->
+<!--footer-->
+<div id="footer">
+
+    <div class="foot-top">
+        <ul class=" type-area">
+            <li>
+                <a href=""><i class="f-p1"></i>正品保障</a>
+            </li>
+            <li>
+                <a href="" ><i class="f-p2"></i>全程跟踪</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p3"></i>客户监督</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p4"></i>售后无忧</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p5"></i>准时到达</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-center type-area">
+        <div class="foot-logo">
+            <a href=""><img src="../images/footer_logo.png" alt=""></a>
+        </div>
+        <div class="foot-code">
+            <div class="code left">
+                <img src="../images/code.jpg" alt="">
+                <h4><i class="f-p6"></i>Android下载</h4>
+            </div>
+            <div class="code right">
+                <img src="../images/code1.png" alt="">
+                <h4><i class="f-p7"></i>IOS下载</h4>
+            </div>
+        </div>
+        <ul class="foot-nav">
+            <li>
+                <h4>关于易和</h4>
+                <a href="">新用户注册</a>
+                <a href="">在线下单</a>
+                <a href="">支付方式</a>
+            </li>
+            <li>
+                <h4>配送说明</h4>
+                <a href="">运费说明</a>
+                <a href="">运费方式</a>
+                <a href="">发票说明</a>
+            </li>
+            <li>
+                <h4>售后服务</h4>
+                <a href="">退换货规则</a>
+                <a href="">服务承诺保障</a>
+                <a href="">验货与签收</a>
+            </li>
+            <li>
+                <h4>加盟易和</h4>
+                <a href="">加盟条款</a>
+                <a href="">公司介绍</a>
+                <a href="">积分介绍</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-bottom">
+        <div class="type-area">
+            <p class="copyright">版权所有 © 2016易和生活港 保留所有权利 | 鲁ICP备：16022180号-1</p>
+            <p>易和生活 众享品质</p>
+            <p><a href="">北京澳环科技提供技术支持</a></p>
+        </div>
+        <img class="cmzz" src="../images/cmzz.gif" alt="cmzz">
+    </div>
+
+
+</div>
+</body>
+</html>

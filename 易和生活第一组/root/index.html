@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>易和生活港</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <script type="text/javascript" src=""></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<!--易和生活港 Header  公用部分 引用base.css-->
+<div id="header">
+  <!--topnav-->
+  <div class="top-nav">
+        <div class="type-area">
+            <div class="select-city top-nav-left">
+                <p>所在城市: <a href="p_changeCity.html">郑州</a></p>
+            </div>
+            <ul class="top-nav-right">
+                <li><a href="./mutual/login.html" id="login">登录</a></li>
+                <li><a href="./mutual/register.html" id="register">注册</a></li>
+                <li class="top-i">|</li>
+                <li><a href="l-index10.html">我的订单</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的消息</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我是商家</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">400-100-0907</a></li>
+            </ul>
+        </div>
+  </div>
+  <!--head-nav-->
+  <div class="head-nav type-area">
+      <!--logo-->
+        <div class="logo">
+            <a href="#"><img src="./images/logo.png" alt="logo"></a>
+        </div>
+      <!--search-->
+      <div id="search">
+
+              <ul class="shop">
+                  <li class="actived yh-shopli" id="shangjia">商家</li>
+                  <li class="yh-shopli" id="shangpin">商品</li>
+              </ul>
+
+          <div class="search-input">
+              <input type="text" class="keywords"/>
+              <button class="search-btn"><i class="search-icon"></i></button>
+          </div>
+
+          <div class="yh-hot">
+              <p class="hot"> <span >热门 :</span><a href="">烤肉</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+
+              <p class="hot none"> <span>热门  :</span><a href="">烤鸡</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+          </div>
+      </div>
+      <div class="shop-cart">
+          <div><i class="cart-ico1"></i><a href="selfcenter.html">我的易和</a><i class="cart-ico3"></i></div>
+          <div><i class="cart-ico2"></i><a href="l-index07.html">购物车</a><i class="cart-ico3"></i></div>
+      </div>
+  </div>
+
+    <div class="main-nav type-area">
+        <div class="first-meau">
+            <h3 class="fir-h3" id="hangye">行业分类<i class="firs-ic1 fir1.rot"></i></h3>
+            <div class="meau-drop">
+                <ul class="firs">
+                    <li class="fir-item"><a href="">餐饮</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">服饰</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">娱乐</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">家具</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">零售</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">日化</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">建材</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">酒店</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">旅游</a><i class="firs-ic2"></i></li>
+                </ul>
+                <ul class="sub-meau">
+                    <li class="item-list active">
+                        <div>
+                            <a href="">火锅</a>
+                            <a href="">自助餐</a>
+                            <a href="">小吃快餐</a>
+                            <a href="">日韩料理</a>
+                            <a href="">西餐</a>
+                            <a href="">烧烤烧肉</a>
+                            <a href="">东北菜</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list ">
+                        <div>
+                            <a href="">男装</a>
+                            <a href="">凉鞋凉拖</a>
+                            <a href="">潮流女包</a>
+                            <a href="">精品男包</a>
+                            <a href="">功能箱包</a>
+                            <a href="">女装</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list">
+                        <div>
+                            <a href="">桌游/电玩</a>
+                            <a href="">运动健身</a>
+                            <a href="">足疗按摩</a>
+                            <a href="">洗浴汗蒸</a>
+                            <a href="">温泉</a>
+                            <a href="">DIY手工</a>
+                            <a href="">密室逃脱</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">成套家具</a>
+                            <a href="">床类柜类</a>
+                            <a href="">床垫</a>
+                            <a href="">沙发桌类</a>
+                            <a href="">椅凳架</a>
+                            <a href="">箱类</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">超市</a>
+                            <a href="">水果生鲜</a>
+                            <a href="">日用品</a>
+                            <a href="">百货</a>
+                            <a href="">配件</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">面部护理</a>
+                            <a href="">洗发护发</a>
+                            <a href="">身体护理</a>
+                            <a href="">口腔护理</a>
+                            <a href="">女性护理</a>
+                            <a href="">香水彩妆</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">基础建材</a>
+                            <a href="">卫浴洁具</a>
+                            <a href="">厨卫电器</a>
+                            <a href="">卫浴五金</a>
+                            <a href="">地板地暖</a>
+                            <a href="">灯具开关</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">经济型酒店</a>
+                            <a href="">豪华酒店</a>
+                            <a href="">主题酒店</a>
+                            <a href="">度假酒店</a>
+                            <a href="">公寓型酒店</a>
+                            <a href="">青年旅社</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">温泉</a>
+                            <a href="">景点主题</a>
+                            <a href="">公园</a>
+                            <a href="">水上公园</a>
+                            <a href="">动植物园</a>
+                            <a href="">海洋馆</a>
+                            <a href="">展览馆</a>
+                            <a href="">游船</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="second-meau">
+            <li><a href="./index.html">首页</a></li>
+            <li><a class="top-join" href="1_index11.html">精选品牌</a></li>
+            <li><a href="tejia.html">今日特价</a></li>
+            <li><a href="h_index01.html">积分商城</a></li>
+            <li><a class="top-join" href="p_addYlife.html">加入易和</a></li>
+            <li class="online-message">
+                <a href="">在线客服</a>
+                <div class="tooltip">
+                    <a href="">QQ客服1</a>
+                    <a href="">QQ客服2</a>
+                    <a href="">QQ客服3</a>
+                    <img src="./images/code.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!------------------------------------------------------------------------------------------------->
+<!--content-->
+<div class="content">
+    <div id="carousels" style="min-width: 1190px;max-width: 1920px;width: 100%;margin: 0 auto;" ></div>
+    <style type="text/css">
+    	#js_slider {
+    		min-width: 1190px !important;
+    		max-width: 1920px !important;
+    		width:100% !important;
+    	}
+    </style>
+    <script src="./js/slideshow.js"></script>
+    <script>
+        window.onload = function() {
+
+            //使用姿势：传入目标盒子ID和图片配置信息即可
+            //配置信息
+            var opts = {
+                //图片信息（必需）
+                imgData: [
+                    {href: "#",src: "images/banner1.jpg"},
+                    {href: "#",src: "images/banner2.jpg"},
+                    {href: "#",src: "images/banner3.jpg"},
+                    {href: "#",src: "images/banner4.jpg"},
+                    {href: "#",src: "images/banner5.png"},
+                    {href: "#",src: "images/banner6.jpg"},
+                    {href: "#",src: "images/banner7.jpg"}
+                ],
+                time: 3000               //轮播图延时（可选）
+            };
+
+            //实例化
+            new Carousel("carousels",opts);
+        };
+    </script>
+<!--AD-1-->
+    <div class="yh-ad1 type-area">
+        <ul class="yh-fourad">
+            <li><a href=""><img src="./images/ad1-1.png" alt=""></a></li>
+            <li><a href=""><img src="./images/ad1-2.png" alt=""></a></li>
+            <li><a href=""><img src="./images/ad1-3.png" alt=""></a></li>
+            <li><a href=""><img src="./images/ad1-4.png" alt=""></a></li>
+        </ul>
+    </div>
+
+    <!--精选商家 ofchoice merchant-->
+    <div class="yh-merchant type-area">
+        <div class="yh-tit1">
+            <span class="tit-text1">精选</span>
+            <span class="tit-text2">商家</span>
+            <span class="tit-text3">Brand selection</span>
+        </div>
+        <div class="yh-ofchoice">
+            <div class="yh-choice-left">
+                <a href=""></a>
+            </div>
+            <!--<ul class="yh-choice-right">-->
+                <!--<li><a href=""><img src="./images/brand1.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand2.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand3.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand4.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand5.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand6.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand7.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand8.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand9.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand10.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand11.png" alt=""></a></li>-->
+                <!--<li><a href=""><img src="./images/brand12.png" alt=""></a></li>-->
+            <!--</ul>-->
+            <table class="yh-choice-right">
+                <tr>
+                    <td><a href=""><img src="./images/brand1.png" alt=""></a></td>
+                    <td><a href=""><img src="./images/brand2.png" alt=""></a></td>
+                    <td><a href=""><img src="./images/brand3.png" alt=""></a></td>
+                    <td class="botr"><a href=""><img src="./images/brand4.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td><a href=""><img src="./images/brand5.png" alt=""></a></td>
+                    <td><a href=""><img src="./images/brand6.png" alt=""></a></td>
+                    <td><a href=""><img src="./images/brand7.png" alt=""></a></td>
+                    <td class="botr"><a href=""><img src="./images/brand8.png" alt=""></a></td>
+                </tr>
+                <tr>
+                    <td class="botm"><a href=""><img src="./images/brand9.png" alt=""></a></td>
+                    <td class="botm"><a href=""><img src="./images/brand10.png" alt=""></a></td>
+                    <td class="botm"><a href=""><img src="./images/brand11.png" alt=""></a></td>
+                    <td class="botm botr"><a href=""><img src="./images/brand12.png" alt=""></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<!--CARDS-->
+    <div class="yh-wrap type-area part1">
+        <div class="base-title">
+
+            <span class="base-txt"><i class="base-ico2"></i>汽车装饰</span>
+
+            <div class="bl-wrap">
+                <ul class="blist clearfix">
+                    <li class="active">爆款推荐</li>
+                    <li>汽车装饰</li>
+                    <li>汽车养护</li>
+                    <li>车内电子</li>
+                    <li>汽车改装</li>
+                    <li>汽车安全用品</li>
+                </ul>
+                <h4 class="cur"></h4>
+            </div>
+
+            <a class="yh-more" href="">更多</a>
+        </div>
+
+        <div class="yh-box">
+            <img src="./images/card.png" alt="" style="width: 316px;height: 511px;">
+            <ul class="blsit-list">
+                <li>
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/card1.png" alt="">
+                            <span class="mod-txt">同城汽车装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/card2.png" alt="">
+                            <span class="mod-txt">同城汽车装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/card3.png" alt="">
+                            <span class="mod-txt">同城汽车装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/card4.png" alt="">
+                            <span class="mod-txt">同城汽车装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/card5.png" alt="">
+                            <span class="mod-txt">同城汽车装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/card6.png" alt="">
+                            <span class="mod-txt">同城汽车装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+                </li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--AD base-->
+    <div class="yh-ad-base type-area">
+        <a href="" class="ad-img"> <img src="./images/ad-1.png" alt=""></a>
+    </div>
+
+    <!--Hotel-->
+
+
+    <div class="yh-wrap type-area part2">
+        <div class="base-title">
+
+           <span class="base-txt"><i class="base-ico1"></i>精品酒店</span>
+
+            <div class="bl-wrap">
+                <ul class="blist clearfix">
+                    <li class="active">经济型酒店</li>
+                    <li>豪华酒店</li>
+                    <li>主题酒店</li>
+                    <li>度假酒店</li>
+                    <li>公寓型酒店</li>
+                    <li>青年旅社</li>
+                </ul>
+                <h4 class="cur"></h4>
+            </div>
+
+            <a class="yh-more" href="">更多</a>
+        </div>
+
+        <div class="yh-box">
+            <img src="./images/hotel.png" alt="" style="width: 316px;height: 511px;">
+            <ul class="blsit-list">
+                <li>
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/hotel1.png" alt="">
+                            <span class="mod-txt">三亚亚龙湾思卡尔顿酒店</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/hotel2.png" alt="">
+                            <span class="mod-txt">三亚亚龙湾思卡尔顿酒店</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/hotel3.png" alt="">
+                            <span class="mod-txt">三亚亚龙湾思卡尔顿酒店</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/hotel4.png" alt="">
+                            <span class="mod-txt">三亚亚龙湾思卡尔顿酒店</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/hotel5.png" alt="">
+                            <span class="mod-txt">三亚亚龙湾思卡尔顿酒店</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/hotel6.png" alt="">
+                            <span class="mod-txt">三亚亚龙湾思卡尔顿酒店</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+                </li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--AD base-->
+    <div class="yh-ad-base type-area ">
+        <a href="" class="ad-img"> <img src="./images/ad-2.png" alt=""></a>
+    </div>
+
+<!--服饰-->
+    <div class="yh-wrap type-area part3">
+        <div class="base-title">
+
+            <span class="base-txt"><i class="base-ico3"></i>服饰</span>
+
+            <div class="bl-wrap">
+                <ul class="blist clearfix">
+                    <li class="active">休闲男装</li>
+                    <li>韩版女装</li>
+                    <li>潮流女包</li>
+                    <li>精品男包</li>
+                    <li>功能箱包</li>
+                    <li>凉鞋凉拖</li>
+                    <li>其它服饰</li>
+                </ul>
+                <h4 class="cur"></h4>
+            </div>
+
+            <a class="yh-more" href="">更多</a>
+        </div>
+
+        <div class="yh-box">
+            <img src="./images/costume.png" alt="" style="width: 316px;height: 511px;">
+            <ul class="blsit-list">
+                <li>
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/costume1.png" alt="">
+                            <span class="mod-txt">法曼斯fomoce男装</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/costume2.png" alt="">
+                            <span class="mod-txt">法曼斯fomoce男装</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/costume3.png" alt="">
+                            <span class="mod-txt">法曼斯fomoce男装</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/costume4.png" alt="">
+                            <span class="mod-txt">法曼斯fomoce男装</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/costume5.png" alt="">
+                            <span class="mod-txt">法曼斯fomoce男装</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/costume6.png" alt="">
+                            <span class="mod-txt">法曼斯fomoce男装</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+                </li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>E</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--AD base-->
+    <div class="yh-ad-base type-area">
+        <a href="" class="ad-img"> <img src="./images/ad-3.png" alt=""></a>
+    </div>
+
+<!--建材-->
+    <div class="yh-wrap type-area part4">
+        <div class="base-title">
+
+            <span class="base-txt"><i class="base-ico4"></i>建材</span>
+
+            <div class="bl-wrap">
+                <ul class="blist clearfix">
+                    <li class="active">基础建材</li>
+                    <li>卫浴洁具</li>
+                    <li>厨卫电器</li>
+                    <li>卫浴五金</li>
+                    <li>地板地暖</li>
+                    <li>灯具开关</li>
+                </ul>
+                <h4 class="cur"></h4>
+            </div>
+
+            <a class="yh-more" href="">更多</a>
+        </div>
+
+        <div class="yh-box">
+            <img src="./images/builder.png" alt="" style="width: 316px;height: 511px;">
+            <ul class="blsit-list">
+                <li>
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build1.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build2.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build3.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build4.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build5.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build6.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+                </li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--AD base-->
+    <div class="yh-ad-base type-area">
+        <a href="" class="ad-img"> <img src="./images/ad-4.png" alt=""></a>
+    </div>
+
+    <div class="yh-wrap type-area part5">
+        <div class="base-title">
+
+            <span class="base-txt"><i class="base-ico4"></i>建材</span>
+
+            <div class="bl-wrap">
+                <ul class="blist clearfix">
+                    <li class="active">基础建材</li>
+                    <li>卫浴洁具</li>
+                    <li>厨卫电器</li>
+                    <li>卫浴五金</li>
+                    <li>地板地暖</li>
+                    <li>灯具开关</li>
+                </ul>
+                <h4 class="cur"></h4>
+            </div>
+
+            <a class="yh-more" href="">更多</a>
+        </div>
+
+        <div class="yh-box">
+            <img src="./images/builder.png" alt="" style="width: 316px;height: 511px;">
+            <ul class="blsit-list">
+                <li>
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build1.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build2.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build3.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build4.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build5.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+
+                    <div class="yh-show">
+                        <div class="yh-item">
+                            <img src="./images/build6.png" alt="">
+                            <span class="mod-txt">建筑家具装饰中心</span>
+                        </div>
+                        <p class="yh-firp"><i class="item-ico1"></i><span>李杰</span></p>
+                        <p><i class="item-ico2"></i><span>18699563265</span></p>
+                        <p><i class="item-ico3"></i><span>浙江省台州市温岭市人民西路281号</span></p>
+                    </div>
+                </li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------->
+
+
+<!--<h1 style="height: 1000px;"></h1>-->
+<!--footer-->
+<div id="footer">
+    
+    <div class="foot-top">
+        <ul class=" type-area">
+            <li>
+                <a href=""><i class="f-p1"></i>正品保障</a>
+            </li>
+            <li>
+                <a href="" ><i class="f-p2"></i>全程跟踪</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p3"></i>客户监督</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p4"></i>售后无忧</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p5"></i>准时到达</a>
+            </li>
+
+        </ul>
+    </div>
+  
+    <div class="foot-center type-area">
+        <div class="foot-logo">
+            <a href=""><img src="./images/footer_logo.png" alt=""></a>
+        </div>
+        <div class="foot-code">
+            <div class="code left">
+                <img src="./images/code.jpg" alt="">
+                <h4><i class="f-p6"></i>Android下载</h4>
+            </div>
+            <div class="code right">
+                <img src="./images/code1.png" alt="">
+                <h4><i class="f-p7"></i>IOS下载</h4>
+            </div>
+        </div>
+        <ul class="foot-nav">
+            <li>
+                <h4>关于易和</h4>
+                <a href="l-index09.html">新用户注册</a>
+                <a href="">在线下单</a>
+                <a href="">支付方式</a>
+            </li>
+            <li>
+                <h4>配送说明</h4>
+                <a href="">运费说明</a>
+                <a href="">运费方式</a>
+                <a href="">发票说明</a>
+            </li>
+            <li>
+                <h4>售后服务</h4>
+                <a href="">退换货规则</a>
+                <a href="">服务承诺保障</a>
+                <a href="">验货与签收</a>
+            </li>
+            <li>
+                <h4>加盟易和</h4>
+                <a href="">加盟条款</a>
+                <a href="">公司介绍</a>
+                <a href="">积分介绍</a>
+            </li>
+
+        </ul>
+    </div>
+   
+    <div class="foot-bottom">
+        <div class="type-area">
+            <p class="copyright">版权所有 © 2016易和生活港 保留所有权利 | 鲁ICP备：16022180号-1</p>
+            <p>易和生活 众享品质</p>
+            <p><a href="">北京澳环科技提供技术支持</a></p>
+        </div>
+        <img class="cmzz" src="./images/cmzz.gif" alt="cmzz">
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/index.js"></script>
+<script type="text/javascript">
+    $('#shangjia').click(function () {
+        window.location = 'p_merchant_result.html';
+    });
+    $('#shangpin').click(function () {
+        window.location = 'search.html';
+    });
+    $('.search-btn').click(function() {
+    	window.location = 'soukong.html';
+    })
+    $('#hangye').click(function() {
+    	window.location = 'l-index05.html';
+    })
+</script>
+</body>
+</html>

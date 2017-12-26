@@ -1,0 +1,22 @@
+#data-show {
+	height: 455px;
+	line-height: 455px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+#data-show >div {
+	text-align: center;
+	font-size: 24px;
+}
+.p-no-adress {
+	display: inline-block;
+    width: 45px;
+    height:60px;
+    line-height:60px;
+    margin-right: 10px;
+    background: url(../images/icons.png) -347px 30px;	
+  }
+#data-show span{
+font-size:30px !important;
+color: #ec6b18;
+}

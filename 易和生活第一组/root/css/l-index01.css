@@ -1,0 +1,26 @@
+@charset "utf-8";
+.l-err {
+	margin-top: 230px;
+	margin-left: 215px;
+}
+.l-left,.l-right {
+	width: 170px;
+	height: 45px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 100px;
+}
+.l-left {
+	font-weight: lighter;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 380px;
+	background-color: rgb(228,107,31);
+}
+.l-right {
+	font-weight: lighter;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 100px;
+	background-color: rgb(45,138,225);
+}

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>易和生活港</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/applyfor.css">
+    <script type="text/javascript" src=""></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>-->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/geo.js"></script>
+    <script src="../js/from.js"></script>
+
+</head>
+<body>
+<!--易和生活港 Header  公用部分 引用base.css-->
+<div id="header">
+    <!--topnav-->
+    <div class="top-nav">
+        <div class="type-area">
+            <div class="select-city top-nav-left">
+                <p>所在城市: <a href="">郑州</a></p>
+            </div>
+            <ul class="top-nav-right">
+                <li><a href="" id="login">登录</a></li>
+                <li><a href="" id="register">注册</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的订单</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的消息</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我是商家</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">400-100-0907</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--head-nav-->
+    <div class="head-nav type-area">
+        <!--logo-->
+        <div class="logo">
+            <a href=""><img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <!--search-->
+        <div id="search">
+
+            <ul class="shop">
+                <li class="actived yh-shopli">商家</li>
+                <li class="yh-shopli">商店</li>
+            </ul>
+
+            <div class="search-input">
+                <input type="text" class="keywords" />
+                <button class="search-btn"><i class="search-icon"></i></button>
+            </div>
+
+            <div class="yh-hot">
+                <p class="hot"> <span >热门 :</span><a href="">烤肉</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+
+                <p class="hot none"> <span>热门  :</span><a href="">烤鸡</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+            </div>
+        </div>
+        <div class="shop-cart">
+            <div><i class="cart-ico1"></i><a href="">我的易和</a><i class="cart-ico3"></i></div>
+            <div><i class="cart-ico2"></i><a href="">购物车</a><i class="cart-ico3"></i></div>
+        </div>
+    </div>
+
+    <div class="main-nav type-area">
+        <div class="first-meau">
+            <h3 class="fir-h3">行业分类<i class="firs-ic1 fir1.rot"></i></h3>
+            <div class="meau-drop">
+                <ul class="firs">
+                    <li class="fir-item"><a href="">餐饮</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">服饰</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">娱乐</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">家具</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">零售</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">日化</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">建材</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">酒店</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">旅游</a><i class="firs-ic2"></i></li>
+                </ul>
+                <ul class="sub-meau">
+                    <li class="item-list active">
+                        <div>
+                            <a href="">火锅</a>
+                            <a href="">自助餐</a>
+                            <a href="">小吃快餐</a>
+                            <a href="">日韩料理</a>
+                            <a href="">西餐</a>
+                            <a href="">烧烤烧肉</a>
+                            <a href="">东北菜</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list ">
+                        <div>
+                            <a href="">男装</a>
+                            <a href="">凉鞋凉拖</a>
+                            <a href="">潮流女包</a>
+                            <a href="">精品男包</a>
+                            <a href="">功能箱包</a>
+                            <a href="">女装</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list">
+                        <div>
+                            <a href="">桌游/电玩</a>
+                            <a href="">运动健身</a>
+                            <a href="">足疗按摩</a>
+                            <a href="">洗浴汗蒸</a>
+                            <a href="">温泉</a>
+                            <a href="">DIY手工</a>
+                            <a href="">密室逃脱</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">成套家具</a>
+                            <a href="">床类柜类</a>
+                            <a href="">床垫</a>
+                            <a href="">沙发桌类</a>
+                            <a href="">椅凳架</a>
+                            <a href="">箱类</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">超市</a>
+                            <a href="">水果生鲜</a>
+                            <a href="">日用品</a>
+                            <a href="">百货</a>
+                            <a href="">配件</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">面部护理</a>
+                            <a href="">洗发护发</a>
+                            <a href="">身体护理</a>
+                            <a href="">口腔护理</a>
+                            <a href="">女性护理</a>
+                            <a href="">香水彩妆</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">基础建材</a>
+                            <a href="">卫浴洁具</a>
+                            <a href="">厨卫电器</a>
+                            <a href="">卫浴五金</a>
+                            <a href="">地板地暖</a>
+                            <a href="">灯具开关</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">经济型酒店</a>
+                            <a href="">豪华酒店</a>
+                            <a href="">主题酒店</a>
+                            <a href="">度假酒店</a>
+                            <a href="">公寓型酒店</a>
+                            <a href="">青年旅社</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">温泉</a>
+                            <a href="">景点主题</a>
+                            <a href="">公园</a>
+                            <a href="">水上公园</a>
+                            <a href="">动植物园</a>
+                            <a href="">海洋馆</a>
+                            <a href="">展览馆</a>
+                            <a href="">游船</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="second-meau">
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="" class="top-join">精选品牌</a></li>
+            <li><a href="">今日特价</a></li>
+            <li><a href="">积分商城</a></li>
+            <li><a href="">加入易和</a></li>
+            <li class="online-message">
+                <a href="">在线客服</a>
+                <div class="tooltip">
+                    <a href="">QQ客服1</a>
+                    <a href="">QQ客服2</a>
+                    <a href="">QQ客服3</a>
+                    <img src="../images/code.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!---------------------------------------------------------------------------------------------------->
+<!--content-->
+<!--申请入驻-->
+<div class="apply-content type-area" onload="setup();preselect('北京市');promptinfo();">
+    <h3 class="apply-tit">您当前的位置: <a href="../index.html">首页</a> > <span class="apply-tit">申请入驻</span></h3>
+    <div class="settled">
+        <div class="settled-body">
+            <div class="step" style="width: 900px;">
+                <div class="group s1">1、提交资料</div>
+                <i class="icon arrow1 arrow3"></i>
+
+                <div class="group">2、确认协议</div>
+                <i class="icon arrow2"></i>
+
+                <div class="group">3、支付保证金</div>
+                <i class="icon arrow2"></i>
+
+                <div class="group">4、审核入驻</div>
+            </div>
+
+            <div class="step-from">
+                <h4>填写基本信息（带*为必填，请如实填写）</h4>
+
+                <form action="checklist.html" name="shareip" method="post" id="tf">
+                    <div class="form-list"><span>*</span><label for="uname">登录账号:</label><input type="text" name="uname" id="uname" placeholder="请输入6到20位英文字母或数字"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="upass">登录密码:</label><input type="text" name="upass" id="upass" placeholder="请输入6到20位字母、数字或下划线"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="shang">商家名称:</label><input type="text" name="shang" id="shang" placeholder="请输入6到20位字符"><i class="pdico"></i></div>
+                    <div class="form-list">
+                        <span>*</span>
+                        <h5>所属省市:</h5>
+                        <select class="select" name="province" id="s1">
+                        <option></option>
+                        </select>
+                    </div>
+                    <div class="form-list">
+                        <span>*</span>
+                        <h5>所属城市:</h5>
+                        <select class="select" name="city" id="s2">=
+                        <option></option>
+                        </select>
+                    </div>
+
+                    <div class="form-list">
+                        <span>*</span>
+                        <h5>所属区县:</h5>
+                        <select class="select" name="town" id="s3">
+                        <option></option>
+                        </select>
+                    </div>
+                    <div class="form-list">
+                        <span>&nbsp;&nbsp;</span>
+                        <h5>业务员:</h5>
+                        <select>
+                            <option value="0">无业务员</option>
+                            <option value="1">周守玉</option>
+                            <option value="2">张腾飞</option>
+                            <option value="3">郭晓敏</option>
+                            <option value="4">何浩浩</option>
+                            <option value="5">张格格</option>
+                        </select>
+                    </div>
+                    <div class="form-list">
+                        <span>*</span>
+                        <h5>服务类型:</h5>
+                        <select >
+                            <option value="0">全都支持</option>
+                            <option value="1">只支持配送</option>
+                            <option value="2">只支持到店</option>
+                        </select>
+                    </div>
+                    <div class="form-list">
+                        <span>*</span>
+                        <h5>所属行业:</h5>
+                        <select  class="half">
+                            <option value="0">请选择</option>
+                            <!--<option value="1">只支持配送</option>-->
+                            <!--<option value="2">只支持到店</option>-->
+                        </select>
+                        <select class="half">
+                            <option value="0">请选择</option>
+                        </select>
+                    </div>
+
+                    <div class="form-list"><span>*</span><label for="price">平均消费价格:</label><input type="text" name="price" id="price"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="pric1">免邮价格:</label><input type="text" name="pric1" id="pric1"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="pric2">消费返回积分:</label><input type="text" name="pric2" id="pric2" placeholder="用户消费时您自愿返还的比例（例如5%则填写5）"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="jishu">管理和技术服务:</label><input type="text" name="jishu" id="jishu" placeholder="管理和技术服务费比例%（例如5%,则填5）"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="fuze">负责人:</label><input type="text" name="fuze" id="fuze"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="phone">手机号码:</label><input type="text" name="phone" id="phone"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="telphone">商家固定电话:</label><input type="text" name="telphone" id="telphone"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="qq">客服QQ:</label><input type="text" name="qq" id="qq" placeholder="多个用,隔开"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="email">邮箱:</label><input type="text" name="email" id="email"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="address">商家地址:</label><input type="text" name="address" id="address"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="bank">开户行:</label><input type="text" name="bank" id="bank" placeholder="请输入支行全称"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="bankname">开户人姓名:</label><input type="text" name="bankname" id="bankname"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="banknum">银行卡号:</label><input type="text" name="banknum" id="banknum"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="zfb">支付宝账号:</label><input type="text" name="zfb" id="zfb"><i class="pdico"></i></div>
+                    <div class="form-list"><span>*</span><label for="bz">备注: </label><textarea name="bz" id="bz" cols="30" rows="10"></textarea></div>
+
+
+                    <div class="form-list form-img"><span>*</span><h5>图片信息:</h5>
+                        <div class="file-wrap">
+                            <h3>1、PC-LOGO（9:5）</h3>
+                            <div class="upload">
+                                 <input type="file" class="change" multiple="multiple">
+                                <span>点击上传PC-LOGO</span>
+                            </div>
+                        </div>
+                        <div class="file-wrap" style="margin-left: 60px">
+                            <h3>APP-LOGO(22:17)</h3>
+                            <div class="upload">
+                                <input type="file" class="change" multiple="multiple">
+                                <span>点击上传APP-LOGO</span>
+                            </div>
+                        </div>
+
+
+                        <div class="second" style="margin-left: 165px;">
+                            <h3>2.商家实景图</h3>
+                            <div class="file-wrap">
+
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传实景照</span>
+                                </div>
+                            </div>
+                            <div class="file-wrap">
+                                <!--<h3>APP-LOGO(22:17)</h3>-->
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传实景照</span>
+                                </div>
+                            </div>
+                            <div class="file-wrap">
+                                <!--<h3>APP-LOGO(22:17)</h3>-->
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传实景照</span>
+                                </div>
+                            </div>
+                            <div class="file-wrap">
+                                <!--<h3>APP-LOGO(22:17)</h3>-->
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传实景照</span>
+                                </div>
+                            </div>
+                            <div class="file-wrap">
+                                <!--<h3>APP-LOGO(22:17)</h3>-->
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传实景照</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="third" style="margin-left: 165px;">
+                            <h3>3、资质证件照（营业执照、组织机构代码证，相关行业服务许可证）</h3>
+                            <div class="file-wrap" >
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传证件照</span>
+                                </div>
+                            </div>
+                            <div class="file-wrap">
+                                <!--<h3>APP-LOGO(22:17)</h3>-->
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传证件照</span>
+                                </div>
+                            </div>
+                            <div class="file-wrap">
+                                <!--<h3>APP-LOGO(22:17)</h3>-->
+                                <div class="upload">
+                                    <input type="file" class="change" multiple="multiple">
+                                    <span>点击上传证件照</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--<input id="address" name="address" type="hidden" value="" />-->
+                    <!--<div id="checklist">-->
+                        <!--<h2>请核对您的信息:</h2>-->
+                        <!--<p>商家名称:</p>-->
+                        <!--<p>所属城市:</p>-->
+                        <!--<p>联系人:</p>-->
+                        <!--<p>手机号码</p>-->
+                    <!--</div>-->
+
+                    <!--<div id="myModal" class="reveal-modal">-->
+                        <!--<h2>请核对您的信息:</h2>-->
+                        <!--<p>商家名称:</p>-->
+                        <!--<p>所属城市:</p>-->
+                        <!--<p>联系人:</p>-->
+                        <!--<p>手机号码</p>-->
+                        <!--<a href="">确认无误</a>-->
+                        <!--<a class="close-reveal-modal">&#215;</a>-->
+                    <!--</div>-->
+                    <!--<input type="submit" id="test" value="提交" /> <br/>-->
+                    <!--<div id="output1" style="display:none;"></div>-->
+                    <a href="./applyfor1.html" class="next">保存并进入下一步</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    function promptinfo()
+    {
+        var address = document.getElementById('address').value;
+        var s1 = document.getElementById('s1').value;
+        var s2 = document.getElementById('s2').value;
+        var s3 = document.getElementById('s3').value;
+        address=""+s1+ s2 + s3;
+        return address;
+    }
+    setup();
+    preselect('北京市');
+    promptinfo();
+//
+//    $(document).ready(function() {
+//        $('#tf').ajaxForm(function() {
+//            $('#output1').html("提交成功！欢迎下次再来！").show();
+//        });
+//    });
+</script>
+<!--<h1 style="height: 1000px;"></h1>-->
+<!---------------------------------------------------------------------------------------------------->
+<!--footer-->
+<div id="footer">
+
+    <div class="foot-top">
+        <ul class=" type-area">
+            <li>
+                <a href=""><i class="f-p1"></i>正品保障</a>
+            </li>
+            <li>
+                <a href="" ><i class="f-p2"></i>全程跟踪</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p3"></i>客户监督</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p4"></i>售后无忧</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p5"></i>准时到达</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-center type-area">
+        <div class="foot-logo">
+            <a href=""><img src="../images/footer_logo.png" alt=""></a>
+        </div>
+        <div class="foot-code">
+            <div class="code left">
+                <img src="../images/code.jpg" alt="">
+                <h4><i class="f-p6"></i>Android下载</h4>
+            </div>
+            <div class="code right">
+                <img src="../images/code1.png" alt="">
+                <h4><i class="f-p7"></i>IOS下载</h4>
+            </div>
+        </div>
+        <ul class="foot-nav">
+            <li>
+                <h4>关于易和</h4>
+                <a href="">新用户注册</a>
+                <a href="">在线下单</a>
+                <a href="">支付方式</a>
+            </li>
+            <li>
+                <h4>配送说明</h4>
+                <a href="">运费说明</a>
+                <a href="">运费方式</a>
+                <a href="">发票说明</a>
+            </li>
+            <li>
+                <h4>售后服务</h4>
+                <a href="">退换货规则</a>
+                <a href="">服务承诺保障</a>
+                <a href="">验货与签收</a>
+            </li>
+            <li>
+                <h4>加盟易和</h4>
+                <a href="">加盟条款</a>
+                <a href="">公司介绍</a>
+                <a href="">积分介绍</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-bottom">
+        <div class="type-area">
+            <p class="copyright">版权所有 © 2016易和生活港 保留所有权利 | 鲁ICP备：16022180号-1</p>
+            <p>易和生活 众享品质</p>
+            <p><a href="">北京澳环科技提供技术支持</a></p>
+        </div>
+        <img class="cmzz" src="../images/cmzz.gif" alt="cmzz">
+    </div>
+
+</div>
+
+</body>
+</html>

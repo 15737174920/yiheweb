@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>支付等待</title>
+</head>
+<body>
+	<script type="text/javascript">
+    window.onload = function() {
+        /*
+        页面结构
+            <style type="text/css">
+    #p-meng-div {
+        display: none;
+        position: absolute;
+        top:0;
+        left:0;
+        opacity: .7;
+        background-color: gray;
+        z-index: 1000;
+    }
+    #p-meng-show {
+        z-index: 1001;
+        display: none;
+        position: fixed;
+        width: 585px;
+        height: 160px;
+        padding:95px 35px 85px 35px;
+        text-align: center;
+        background-color: pink;
+    }
+     #p-meng-show > h2 {
+         height: 38px;
+         line-height: 38px;
+         font-size: 36px;
+         letter-spacing: 1px;
+         color:#ec6b18;
+         margin-bottom: 45px;
+         text-align: center;
+     }
+     #p-meng-show > p {
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: center;
+     }
+     #p-meng-show > button {
+        display: inline-block;
+        width: 170px;
+        height: 60px;
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        text-align: center;
+        padding: 5px 35px;
+     }
+     #p-meng-looser, #p-meng-sure  {
+        background-color:#999999;
+     }
+      #p-meng-show > button >span {
+        font-size: 16px;
+      }
+      #p-meng-show > button:hover {
+        background-color: #ec6b18;
+      }
+</style>
+<div id="p-meng-div">
+</div>
+<div id="p-meng-show">
+        <h2>使用平台支付</h2>
+        <p>请您在新打开的网上银行页面进行支付,支付完成请不要关闭该窗口</p>
+        <button id="p-meng-sure"><span>已经完成支付</span><br>查看订单详情</button>
+        <button id="p-meng-looser"><span>支付失败</span><br>更换支付方式</button>
+    </div>
+ //  <button id="queren-1">queren</button>
+        */
+       
+        var sure = document.getElementById('queren-1');
+        var HTML=document.getElementsByTagName('html')[0];
+        var ww=document.documentElement.clientWidth;
+        var wh=document.documentElement.clientHeight;
+        console.log(wh+'kcksajc'+ww)
+        var p_meng = document.getElementById('p-meng-div');
+        var p_mengShow = document.getElementById('p-meng-show');
+        var p_width =  document.body.scrollWidth;
+        var p_height =  document.body.scrollHeight;
+        sure.onclick = function() {
+           p_meng.style.display = 'block';
+           p_mengShow.style.display = 'block';
+           p_meng.style.width = p_width+'px';
+           p_meng.style.height =p_height+ 'px';
+           var hh = wh/2- 440/2;
+           var hw = ww/2 - 655/2;
+           p_mengShow.style.left=hw+'px';
+           p_mengShow.style.top=hh+'px';      
+        }
+    }
+</script>
+</body>
+</html>

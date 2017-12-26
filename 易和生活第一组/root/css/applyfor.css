@@ -1,0 +1,382 @@
+@charset "utf-8";
+
+.apply-content {
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+/* 商家入驻*/
+.addbanner{
+    height: 362px;
+    background: url("../images/adbanner.jpg") no-repeat scroll center center;
+    background-size: 100% 100%;
+}
+.addbanner p{
+    height: 50px;
+    line-height: 45px;
+    font-size: 26px;
+    color: #666;
+}
+.addbanner .text{
+    position: relative;
+    top: 110px;
+}
+.addbanner .text span{
+    color: #ff6c00;
+}
+.userjion{
+    margin-top: 50px;
+}
+.userjion  > div{
+    display: inline-block;
+    width: 590px;
+}
+.userjion  > div h3{
+    text-align: center;
+    font-size: 36px;
+    color: #EC6917;
+    height: 50px;
+    line-height: 50px;
+    margin: 100px 0 0 0;
+}
+.userjion  > div h4{
+    text-align: center;
+    font-size: 20px;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.userjion  > div p{
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+.userjion  > div p a{
+    margin-top: 15px;
+    padding: 0 30px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    background: #EC6917;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.userjion  > div .radio{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #EC6917;
+    margin: 100px 0;
+}
+.userjion  > div .rig{
+    border: 1px solid #008CE1;
+}
+.userjion  > div .rig h3{
+    color: #008CE1;
+}
+.userjion  > div .rig p a{
+    background-color: #008CE1;
+}
+.userjion  .users{
+    border-right: 1px solid #d3d3d3;
+}
+
+
+/*申请入驻 - 提交资料*/
+.apply-tit {
+    height: 56px;
+    line-height: 56px;
+    color: #999;
+    font-size: 16px;
+}
+.apply-tit a{
+    color: #999;
+}
+.apply-tit span{
+    display: inline-block;
+    color: #f60;
+    font-size: 16px;
+}
+.settled {
+    border: 1px solid #d3d3d3;
+    padding: 80px;
+    background: #fff;
+}
+.settled-body .step {
+    width: 664px;
+    height: 42px;
+    background: #E5E5E5;
+    overflow: hidden;
+}
+.settled-body .step .group {
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 42px;
+    color: #666;
+    font-size: 16px;
+    line-height: 42px;
+}
+.settled-body .step .group.s1 {
+    background: #ff6c00;
+    color: #fff;
+}
+ .settled-body .step i.arrow3 , i.arrow1{
+    background-position: -253px -272px;
+}
+.settled-body .step  i.arrow1{
+background-position: -255px -144px;
+}
+.settled-body .step  i.arrow2{
+    background-position: -253px -220px;
+}
+.step i {
+    float: left;
+    width: 32px;
+    height: 42px;
+}
+.icon{
+    display: inline-block;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    font-style: normal;
+}
+
+.step-from{
+    height: 2400px;
+}
+.step-from h4{
+    margin: 30px 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #999;
+
+}
+.step-from .form-list{
+    width: 1000px;
+    /*overflow: hidden;*/
+    margin: 0 0 35px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    color: #666;
+    font-size: 16px;
+}
+.step-from .form-list span{
+    color: red;
+}
+.step-from .form-list label,.step-from .form-list h5{
+    width: 150px;
+    height: 35px;
+}
+.step-from .form-list input,.step-from .form-list select{
+    width: 410px;
+    height: 33px;
+    background-color: rgb(248, 248, 248);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(166, 166, 166);
+}
+.step-from textarea{
+    width: 450px;
+    height: 100px;
+}
+.step-from .form-list .half{
+    width: 203px;
+    margin-right: 2px;
+}
+.step-from .form-list .change{
+    opacity: 0;
+    width: 125px;
+    height: 125px;
+    cursor: pointer;
+}
+.step-from  .form-img{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.step-from  .form-img .file-wrap{
+    display: inline-block;
+    width: 130px;
+    height: 150px;
+    margin: 10px 6px 0 0;
+}
+.step-from  .form-img .upload{
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    background: url(../images/icons.png);
+    background-color: #d3d3d3;
+    background-repeat: no-repeat;
+    font-style: normal;
+    background-position: -375px -400px;
+    position: relative;
+}
+.step-from  .form-img .upload .change{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.second{
+    margin-top: 15px;
+}
+.step-from  .form-img .upload span{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 888;
+}
+.step-from  .form-img .upload .file-wrap{
+    display: inline-block;
+    width: 150px;
+    height: 150px !important;
+}
+
+.next{
+    height: 35px;
+    line-height: 35px;
+    background: #EC6917;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 30px;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+
+
+
+
+
+
+
+
+/*确认协议*/
+.apply-content .xys{
+    font-size: 16px !important;
+    color: #000!important;
+    line-height: 30px !important;
+    margin: 40px 0 ;
+}
+.xys h3{
+    margin: 10px 0;
+    color: #000;
+
+}
+.submit {
+    border: 0;
+    height: 35px;
+    line-height: 35px;
+    background: #EC6917;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 30px;
+    border-radius: 5px;
+    margin-left: 34%;
+}
+.submit:hover{color:#fff;}
+ /*支付保障金*/
+ .order-wrap{
+     padding: 40px 40px 0 40px;
+ }
+ .order-wrap .center{
+     overflow: hidden;
+     text-align: center;
+     padding: 80px 0 40px;
+ }
+ .order-wrap .order-price{
+     overflow: hidden;
+     margin: 0 0 20px 0;
+ }
+ .order-price .price{
+     float: left;
+     height: 30px;
+     line-height: 30px;
+     font-size: 18px;
+     color: #666;
+ }
+.order-price .price span{
+    color: #ff6c00;
+    font-size: 22px;
+}
+.center .order-price.line {
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #d3d3d3;
+    margin: 0 0 40px 0;
+}
+.al,.wx{
+    display: inline-block;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    font-style: normal;
+    width: 133px;
+    height: 40px;
+    margin:  0 10px;
+    position: relative;
+    top: 15px;
+
+}
+.al{
+    background-position: -298px -80px;
+}
+.wx{
+    background-position: -298px -149px;
+}
+.payment-list{
+    margin-left: 30px;
+}
+.send{
+    display: inline-block;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #ff6c00;
+    font-size: 16px;
+    padding: 0 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*弹出层*/
+

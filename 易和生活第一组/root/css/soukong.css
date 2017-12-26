@@ -1,0 +1,53 @@
+@charset "utf-8";
+.part1 {
+	height: 633px;
+	width: 100%;
+	/*background-color: #f2f2f2;*/
+}
+.part1 .wrap1 {
+	width: 1190px;
+	height: 633px;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	background: url(../imgs/search.jpg) no-repeat 300px 260px ;
+
+}
+.wrap1 p{
+	display: inline-block;
+font-size: 20px;
+margin:250px auto 40px;
+font-weight: lighter;
+
+}
+.wrap1 span{
+display: inline-block;
+height: 46px;
+line-height: 46px;
+background-color: #ec6a17;
+border-radius: 5px;
+width: 170px;
+color: #fff;
+font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

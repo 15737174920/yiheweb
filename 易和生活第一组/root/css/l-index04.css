@@ -1,0 +1,143 @@
+/*个人中心公共部分*/
+#p-selfCenter {
+	width: 100%;
+	margin-top: 20px;
+}
+#p-self-wrapper {
+	width: 1190px;
+	margin: 0 auto;
+	height: 600px;
+}
+/*左边*/
+#p-self-left {
+	display: inline-block;
+	height: 545px;
+	width: 175px;
+	border: 1px solid #d2d2d2;
+}
+#p-self-left .p-title {
+	width: 175px;
+	height: 55px;
+	border-bottom: 1px solid #d2d2d2;
+	text-indent: 20px;
+	font-size: 18px;
+	line-height: 55px;
+	letter-spacing: 1px;
+}
+#p-self-left >.p-title >.p-icon{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.l-selfziliao {
+	color: #ff6600;
+	text-decoration: underline;
+}
+#p-self-left >.p-title >.p-icon {
+	background:url(../images/icons.png) 5px -15px;	
+}
+#p-self-left .p-icon1 {
+	vertical-align: top;
+	margin-left: 10px;
+	background:url(../images/arror1.png) no-repeat center;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.p-self-firstList>li {
+	height: 35px;
+	line-height: 35px;
+	margin: 0 20px;
+	text-align:left;
+	font-size: 14px;
+}
+.p-self-firstList>li:nth-child(1) {
+	height: 40px;
+	line-height: 40px;
+}
+.p-self-firstList>li:nth-child(1) >span {
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+#p-self-left >.p-self-firstList >li>a:hover {
+	color:#ec6b18;
+	text-decoration: underline;
+}
+/*个人中心右边部分*/
+#p-self-right {
+	vertical-align: top;
+	height: 548px;
+	width: 985px;
+	margin-left: 20px;
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	font-size: 40px;
+}
+/*li {
+	display: inline-block;
+}*/
+#p-self-right .l-self p{
+	height: 56px;
+	line-height: 60px;
+	font-size: 18px;
+	font-weight: lighter;
+	padding-left: 25px;
+	cursor: pointer;
+	color: rgb(78,163,227);
+	border-bottom: 1px solid #d2d2d2;
+}
+.l-selfinformation {
+	margin-left: 25px;
+	margin-top: 40px;
+}
+.l-selfinformation div{
+	margin-bottom: 20px;
+}
+.l-selfinformation div label{
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+	font-size: 18px;
+}
+.l-selfinformation div .l-uinpt {
+	width: 151px;
+	height: 33px;
+	border: 1px solid #d2d2d2;
+	padding-left: 20px;
+}
+.l-selfinformation .l-change {
+	position: relative;
+	bottom: 20px;
+}
+.l-selfinformation a {
+	color: rgb(43,133,217);
+	font-size: 16px;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+.l-selfinformation div .l-selfhead {
+	position: relative;
+	bottom: 20px;
+}
+.l-selfinformation div .l-usex {
+	margin-left: 35px;
+}
+.l-sure {
+	font-size: 18px;
+	color: #fff;
+	margin-left: 80px;
+	width: 168px;
+	height: 43px;
+	background-color: rgb(228,107,31);
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+

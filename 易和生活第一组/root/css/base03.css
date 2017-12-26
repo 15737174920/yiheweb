@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.content{
+	width: 1190px;
+	height: 1280px;
+	border: 1px solid #e5e5e5;
+	margin-top: 30px;
+}
+
+#head{
+	width: 100%;
+	height: 32px;
+}
+
+.header{
+height: 32px;
+line-height: 32px;
+background-color: #eee;
+color: #666;	
+}
+.left{
+	display: inline-block;
+	float: left;
+
+}
+.header ul{
+	float: right;
+}
+.header ul li{
+	display: inline-block;
+	padding: 0 8px;
+	border-right: 1px solid #000;
+	height: 16px;
+	line-height: 16px;
+}
+.img{
+	position: relative;
+	top: 2px;
+	left: -2px;
+}
+.left>div>a>img{
+	position: relative;
+	top: 6px;
+	left: 4px;
+}
+
+
+/*content*/
+
+
+.area{
+	width: 1130px;
+	margin: 30px auto;
+	min-width: 1130px;
+}
+.logo{
+	display: inline-block;
+}
+
+.logo-right{
+	/*width: 800px;*/
+	height: 84px;
+	/*display: inline-block;*/
+	font-size: 0;
+	float: right;
+	margin-top: 20px;
+
+}
+.logo-right > div{
+	float: left;
+	width: 247px;
+	height: 42px;
+	position: relative;
+}
+.logo-right span a{
+	font-size: 22px;
+	position: absolute;
+	text-align: center;
+	width: 247px;
+	top: 5px;
+	left: -20px;
+
+}
+.logo-right img{
+
+}
+
+.content-t{
+	margin-top: 30px;
+}
+
+.zs-area{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #d3d3d3;
+	background-color: #fff3ec;
+	display: inline-block;margin-top: 10px;
+}
+.zs-cont span{
+	margin-left: 30px;
+}
+.zs-cont input{
+	position: relative;
+	left: 22px;
+	top: 0px;
+}
+
+
+.zs-vip{
+	float: right;
+	padding-right: 20px;
+}
+.zs-vip span{
+	font-size: 18px;
+	margin-left: 10px;
+	color: #2684c7;
+}
+
+.where{
+	margin-top: 20px;
+}
+.where span{
+	font-size: 16px;
+	color: #2684c7;
+	margin-left: 0px;
+}
+.where .img1{
+	position: relative;
+	top: 2px;
+	left: 0px;
+}
+
+.where .img2{
+	position: relative;
+	top: 6px;
+	left: -21px;
+}
+
+
+
+

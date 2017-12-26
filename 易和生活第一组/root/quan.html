@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>易和生活港</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/quan.css">
+
+    <script type="text/javascript" src=""></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</head>
+<body>
+<!--易和生活港 Header  公用部分 引用base.css-->
+<div id="header">
+    <!--topnav-->
+    <div class="top-nav">
+        <div class="type-area">
+            <div class="select-city top-nav-left">
+                <p>所在城市: <a href="">郑州</a></p>
+            </div>
+            <ul class="top-nav-right">
+                <li><a href="./mutual/login.html" id="login">登录</a></li>
+                <li><a href="./mutual/register.html" id="register">注册</a></li>
+                <li class="top-i">|</li>
+                <li><a href="l-index10.html">我的订单</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的消息</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我是商家</a></li>
+                <li class="top-i">|</li>
+                <li><a href=""><img src="./images/l-phone_03.png">400-100-0907</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--head-nav-->
+    <div class="head-nav type-area">
+        <!--logo-->
+        <div class="logo">
+            <a href=""><img src="./images/logo.png" alt="logo"></a>
+        </div>
+        <!--search-->
+        <div id="search">
+
+            <ul class="shop">
+                <li class="actived yh-shopli" id="shangjia">商家</li>
+                <li class="yh-shopli" id="shangpin">商店</li>
+            </ul>
+
+            <div class="search-input">
+                <input type="text" class="keywords" placeholder="海澜之家旗舰店"/>
+                <button class="search-btn"><i class="search-icon"></i></button>
+            </div>
+
+            <div class="yh-hot">
+                <p class="hot"> <span >热门 :</span><a href="">烤肉</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+
+                <p class="hot none"> <span>热门  :</span><a href="">烤鸡</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+            </div>
+        </div>
+        <div class="shop-cart">
+            <div><i class="cart-ico1"></i><a href="">我的易和</a><i class="cart-ico3"></i></div>
+            <div><i class="cart-ico2"></i><a href="">购物车</a><i class="cart-ico3"></i></div>
+        </div>
+    </div>
+
+    <div class="main-nav type-area">
+        <div class="first-meau">
+            <h3 class="fir-h3">行业分类<i class="firs-ic1 fir1.rot"></i></h3>
+            <div class="meau-drop">
+                <ul class="firs">
+                    <li class="fir-item"><a href="">餐饮</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">服饰</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">娱乐</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">家具</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">零售</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">日化</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">建材</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">酒店</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">旅游</a><i class="firs-ic2"></i></li>
+                </ul>
+                <ul class="sub-meau">
+                    <li class="item-list active">
+                        <div>
+                            <a href="">火锅</a>
+                            <a href="">自助餐</a>
+                            <a href="">小吃快餐</a>
+                            <a href="">日韩料理</a>
+                            <a href="">西餐</a>
+                            <a href="">烧烤烧肉</a>
+                            <a href="">东北菜</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list ">
+                        <div>
+                            <a href="">男装</a>
+                            <a href="">凉鞋凉拖</a>
+                            <a href="">潮流女包</a>
+                            <a href="">精品男包</a>
+                            <a href="">功能箱包</a>
+                            <a href="">女装</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list">
+                        <div>
+                            <a href="">桌游/电玩</a>
+                            <a href="">运动健身</a>
+                            <a href="">足疗按摩</a>
+                            <a href="">洗浴汗蒸</a>
+                            <a href="">温泉</a>
+                            <a href="">DIY手工</a>
+                            <a href="">密室逃脱</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">成套家具</a>
+                            <a href="">床类柜类</a>
+                            <a href="">床垫</a>
+                            <a href="">沙发桌类</a>
+                            <a href="">椅凳架</a>
+                            <a href="">箱类</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">超市</a>
+                            <a href="">水果生鲜</a>
+                            <a href="">日用品</a>
+                            <a href="">百货</a>
+                            <a href="">配件</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">面部护理</a>
+                            <a href="">洗发护发</a>
+                            <a href="">身体护理</a>
+                            <a href="">口腔护理</a>
+                            <a href="">女性护理</a>
+                            <a href="">香水彩妆</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">基础建材</a>
+                            <a href="">卫浴洁具</a>
+                            <a href="">厨卫电器</a>
+                            <a href="">卫浴五金</a>
+                            <a href="">地板地暖</a>
+                            <a href="">灯具开关</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">经济型酒店</a>
+                            <a href="">豪华酒店</a>
+                            <a href="">主题酒店</a>
+                            <a href="">度假酒店</a>
+                            <a href="">公寓型酒店</a>
+                            <a href="">青年旅社</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">温泉</a>
+                            <a href="">景点主题</a>
+                            <a href="">公园</a>
+                            <a href="">水上公园</a>
+                            <a href="">动植物园</a>
+                            <a href="">海洋馆</a>
+                            <a href="">展览馆</a>
+                            <a href="">游船</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="second-meau">
+            <li><a href="index.html">首页</a></li>
+            <li><a class="top-join" href="1_index11.html">精选品牌</a></li>
+            <li><a href="tejia.html">今日特价</a></li>
+            <li><a href="h_index01.html">积分商城</a></li>
+            <li><a class="top-join" href="p_addYlife.html">加入易和</a></li>
+            <li class="online-message">
+                <a href="">在线客服</a>
+                <div class="tooltip">
+                    <a href="">QQ客服1</a>
+                    <a href="">QQ客服2</a>
+                    <a href="">QQ客服3</a>
+                    <img src="./images/code.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!---------------------------------------------------------------------------------------------------->
+
+
+
+<!--content-->
+<div class="per-content type-area">
+    <div class="per-left">
+        <h3><i class="per-ico1"></i>个人中心</h3>
+        <ul>
+            <li class="meau-list">
+                <h4>交易管理<i class="per-ico2"></i></h4>
+                <ul class="per-meau">
+                    <li><a href="personal1.html">我的账户</a></li>   <li class="per-active"><a href="l-index08.html">我的订单</a></li>
+                <li><a href="p_exchange.html">我的积分</a></li>
+                <li><a href="quan.html">我的易和劵</a></li>
+                </ul>
+            </li>
+            <li class="meau-list">
+                <h4>会员资料 <i class="per-ico2"></i></h4>
+                <ul class="per-meau">
+                    <li><a href="l-index04.html">个人资料</a></li>
+                <li><a href="p-selfcenter.html">地址管理</a></li>
+                <li><a href="shoucang.html">我的收藏</a></li>
+                <li><a href="liulan.html">最近浏览</a></li>
+                <li><a href="1_password.html">修改密码</a></li>
+                </ul>
+            </li>
+            <li class="meau-list">
+                <h4>站内信<i class="per-ico2"></i></h4>
+                <ul class="per-meau">
+                    <li><a href="xiaoxi.html">我的消息</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="per-right">
+        
+            <p>我的易和券</p>
+            <div class="right-quan">
+                <div class="div-d">
+                      <span>&nbsp;&nbsp;订单号:  150319690000</span>
+                      <span class="xiadan">下单日期:2015.04.09  18:06:06</span>
+                      <span>海澜之家旗舰店</span>
+                      <span class="dingzh">订单状态:</span>
+                      <b>未消费</b>                  
+                </div>
+          
+                 <div class="quan-div1">
+                    <div class="quan-hang">
+                        <span class="quan-sp1"><<寻龙诀>>北京保利龙广场店电影票</span>
+                        <span class="quan-sp2">版本:国行 32G <br>颜色:星钻黑</span>
+                        <span class="quan-sp3">&yen;35.0 * 1</span>
+                    </div>
+                    <div  class="quan-hang">
+                        <span class="quan-sp1"><<寻龙诀>>北京保利龙广场店电影票</span>
+                        <span class="quan-sp2">版本:国行 32G <br>颜色:星钻黑</span>
+                        <span class="quan-sp3">&yen;35.0 * 1</span></div> 
+                    <div  class="quan-hang">
+                        <span class="quan-sp1"><<寻龙诀>>北京保利龙广场店电影票</span>
+                        <span class="quan-sp2">版本:国行 32G <br>颜色:星钻黑</span>
+                        <span class="quan-sp3">&yen;35.0 * 1</span></div>
+                 </div>
+                 <div class="quan-div2">
+                     <div>
+                         <a href="#">查看详情</a> <br>
+                         <span>退款</span>
+                     </div>
+                 </div>
+                 <div class="quan-div3">
+                     <span>
+                         总金额: +105.0 <br>(含运费&yen;8.0)
+                     </span>
+                 </div>
+                <div class="quan-div4">
+                    <span>券号 : 4481-2568-2216</span>
+                </div>
+            
+            </div>
+            <div class="right-quan">
+                <div class="div-d">
+                      <span>&nbsp;&nbsp;订单号:  150319690000</span>
+                      <span class="xiadan">下单日期:2015.04.09  18:06:06</span>
+                      <span>海澜之家旗舰店</span>
+                      <span class="dingzh">订单状态:</span>
+                      <b>已消费</b>                  
+                </div>
+          
+                 <div class="quan-div1">
+                    <div class="quan-hang">
+                        <span class="quan-sp1"><<寻龙诀>>北京保利龙广场店电影票</span>
+                        <span class="quan-sp2">版本:国行 32G <br>颜色:星钻黑</span>
+                        <span class="quan-sp3">&yen;35.0 * 1</span>
+                    </div>
+                    <div  class="quan-hang">
+                        <span class="quan-sp1"><<寻龙诀>>北京保利龙广场店电影票</span>
+                        <span class="quan-sp2">版本:国行 32G <br>颜色:星钻黑</span>
+                        <span class="quan-sp3">&yen;35.0 * 1</span></div> 
+                    <div  class="quan-hang">
+                        <span class="quan-sp1"><<寻龙诀>>北京保利龙广场店电影票</span>
+                        <span class="quan-sp2">版本:国行 32G <br>颜色:星钻黑</span>
+                        <span class="quan-sp3">&yen;35.0 * 1</span></div>
+                 </div>
+                 <div class="quan-div2">
+                     <div>
+                         <a href="#">查看详情</a> <br>
+                         <span>退款</span>
+                     </div>
+                 </div>
+                 <div class="quan-div3">
+                     <span>
+                         总金额: +105.0 <br>(含运费&yen;8.0)
+                     </span>
+                 </div>
+                <div class="quan-div4">
+                    <span>券号 : 4481-2568-2216</span>
+                </div>
+            
+            </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------->
+<!--footer-->
+<div id="footer">
+
+    <div class="foot-top">
+        <ul class=" type-area">
+            <li>
+                <a href=""><i class="f-p1"></i>正品保障</a>
+            </li>
+            <li>
+                <a href="" ><i class="f-p2"></i>全程跟踪</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p3"></i>客户监督</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p4"></i>售后无忧</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p5"></i>准时到达</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-center type-area">
+        <div class="foot-logo">
+            <a href=""><img src="./images/footer_logo.png" alt=""></a>
+        </div>
+        <div class="foot-code">
+            <div class="code left">
+                <img src="./images/code.jpg" alt="">
+                <h4><i class="f-p6"></i>Android下载</h4>
+            </div>
+            <div class="code right">
+                <img src="./images/code1.png" alt="">
+                <h4><i class="f-p7"></i>IOS下载</h4>
+            </div>
+        </div>
+        <ul class="foot-nav">
+            <li>
+                <h4>关于易和</h4>
+                <a href="">新用户注册</a>
+                <a href="">在线下单</a>
+                <a href="">支付方式</a>
+            </li>
+            <li>
+                <h4>配送说明</h4>
+                <a href="">运费说明</a>
+                <a href="">运费方式</a>
+                <a href="">发票说明</a>
+            </li>
+            <li>
+                <h4>售后服务</h4>
+                <a href="">退换货规则</a>
+                <a href="">服务承诺保障</a>
+                <a href="">验货与签收</a>
+            </li>
+            <li>
+                <h4>加盟易和</h4>
+                <a href="">加盟条款</a>
+                <a href="">公司介绍</a>
+                <a href="">积分介绍</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-bottom">
+        <div class="type-area">
+            <p class="copyright">版权所有 © 2016易和生活港 保留所有权利 | 鲁ICP备：16022180号-1</p>
+            <p>易和生活 众享品质</p>
+            <p><a href="">北京澳环科技提供技术支持</a></p>
+        </div>
+        <img class="cmzz" src="./images/cmzz.gif" alt="cmzz">
+    </div>
+
+</div>
+<script type="text/javascript">
+    $('#shangjia').click(function () {
+        window.location = 'p_merchant_result.html';
+    });
+    $('#shangpin').click(function () {
+        window.location = 'search.html';
+    });
+</script>
+</body>
+</html>

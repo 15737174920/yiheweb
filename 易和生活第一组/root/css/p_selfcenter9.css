@@ -1,0 +1,140 @@
+/*个人中心公共部分*/
+#p-selfCenter {
+	width: 100%;
+	background-color:#f2f2f2;
+	padding-top: 20px;
+}
+#p-self-wrapper {
+	width: 1190px;
+	margin: 0 auto;
+	height: 600px;
+}
+/*左边*/
+#p-self-left {
+	display: inline-block;
+	height: 545px;
+	width: 175px;
+	background-color: pink;
+	border: 1px solid #d2d2d2;
+	background-color: #ffffff;
+}
+#p-self-left .p-title {
+	width: 175px;
+	height: 55px;
+	border-bottom: 1px solid #d2d2d2;
+	text-indent: 20px;
+	font-size: 18px;
+	line-height: 55px;
+	letter-spacing: 1px;
+}
+#p-self-left >.p-title >.p-icon{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#p-self-left >.p-title >.p-icon {
+	background:url(../images/icons.png) 5px -15px;	
+}
+#p-self-left .p-icon1 {
+	vertical-align: top;
+	margin-left: 10px;
+	background:url(../images/arror1.png) no-repeat center;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.p-self-firstList>li {
+	height: 35px;
+	line-height: 35px;
+	margin: 0 20px;
+	text-align:left;
+	font-size: 14px;
+}
+.p-self-firstList>li:nth-child(1) {
+	height: 40px;
+	line-height: 40px;
+}
+.p-self-firstList>li:nth-child(1) >span {
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+#p-self-left >.p-self-firstList >li>a:hover {
+	color:#ec6b18;
+	text-decoration: underline;
+}
+/*个人中心右边部分*/
+#p-self-right {
+	vertical-align:top;
+	width: 985px;
+	height: 545px;
+	margin-left:21px !important;
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	background-color: white;
+}
+.p-right-title {
+	padding: 15px 20px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #d2d2d2;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #008ce1;
+}
+#p-add-adress {
+	background-color: #ec6b18;
+	color: white;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 8px;
+	margin-left: 760px;
+	border: none;
+	outline: none;
+}
+#data-show {
+	padding: 15px 20px;
+	width: 945px;
+}
+#p-td {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+#p-td tr {
+	height: 50px;
+    border-bottom: 1px solid #ddd;
+    text-indent:20px;
+    font-size: 14px;
+}
+#p-td tr:nth-child(1)>th {
+	border: none;
+	font-size:18px;
+	letter-spacing: 1px;
+}
+#p-td tr>td>span {
+	border-right: 1px solid #ddd;
+	padding-right: 5px;
+}
+#p-td tr>td {
+	text-align: center;
+}
+#p-td tr>td>span:hover {
+	color: #ec6b18;
+}
+#p-td tr:hover {
+background-color: #fff4ed;
+}
+
+
+
+
+
+
+
+
+
+

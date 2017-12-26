@@ -1,0 +1,93 @@
+/*个人中心公共部分*/
+#p-selfCenter {
+	width: 100%;
+	background-color:#f2f2f2;
+}
+#p-self-wrapper {
+	width: 1190px;
+	margin: 0 auto;
+	height: 600px;
+	/*background-color: red;*/
+}
+/*左边*/
+#p-self-left {
+	display: inline-block;
+	height: 545px;
+	width: 175px;
+	background-color: pink;
+	border: 1px solid #d2d2d2;
+	background-color: #ffffff;
+}
+#p-self-left .p-title {
+	width: 175px;
+	height: 55px;
+	border-bottom: 1px solid #d2d2d2;
+	text-indent: 20px;
+	font-size: 18px;
+	line-height: 55px;
+	letter-spacing: 1px;
+}
+#p-self-left >.p-title >.p-icon{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#p-self-left >.p-title >.p-icon {
+	background:url(../images/icons.png) 5px -15px;	
+}
+#p-self-left .p-icon1 {
+	vertical-align: top;
+	margin-left: 10px;
+	background:url(../images/arror1.png) no-repeat center;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.p-self-firstList>li {
+	height: 35px;
+	line-height: 35px;
+	margin: 0 20px;
+	text-align:left;
+	font-size: 14px;
+}
+.p-self-firstList>li:nth-child(1) {
+	height: 40px;
+	line-height: 40px;
+}
+.p-self-firstList>li:nth-child(1) >span {
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+#p-self-left >.p-self-firstList >li>a:hover {
+	color:#ec6b18;
+	text-decoration: underline;
+}
+/*个人中心右边部分*/
+#p-self-right {
+	vertical-align: top;
+	height: 300px;
+	width: 985px;
+	margin-left: 20px;
+	background-color: blue;
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

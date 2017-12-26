@@ -1,0 +1,239 @@
+@charset "utf-8";
+.reg-logo{
+    padding: 0 20px 0 0;
+    margin: 0 30px  0 0 !important;
+    border-right: 1px solid #d3d3d3;
+}
+.login-mark{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    color: #999;
+    font-size: 26px;
+}
+.reg-wrap{
+    width: 100%;
+    height: 665px;
+    background-image: url(../images/reg-bgc.png);
+    margin-top: -50px;
+}
+.reg-content{
+    width: 1190px;
+    position: relative;
+    height: 665px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.reg-content .reg-left{
+    padding: 80px;
+    margin-right: 180px;
+}
+
+.icon{
+    background: url("../images/icons.png");
+}
+.reg-right{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 325px;
+    background: #fff;
+    padding: 20px 30px;
+}
+ .form-mark{
+     overflow: hidden;
+     height:30px;
+     line-height: 30px;
+     margin: 0 0 20px 0;
+ }
+ .form-mark .label{
+     float:left;
+     font-size: 24px;
+     color: #999;
+ }
+  .form-mark .explain{
+      float:right;
+      font-size: 14px;
+      color: #008CE1;
+      height: 30px;
+      line-height: 43px;
+      text-decoration: none;
+  }
+ .form-mark .explain i{
+     width: 15px;
+     height: 17px;
+     float: right;
+     background-position: -250px -24px;
+     margin: 10px 0 0 5px;
+ }
+ .form-mark .explain-phone{
+     float:right;
+     font-size: 14px;
+     color: #008CE1;
+     height: 30px;
+     line-height: 43px;
+     text-decoration: none;
+ }
+ .form-mark .explain-phone i{
+     width: 15px;
+     height: 17px;
+     float: right;
+     background-position: -211px -403px;
+     margin: 13px 0 0 5px;
+ }
+.form-list{
+    height: 37px;
+    position: relative;
+    /*margin-bottom: 15px;*/
+}
+ .form-area .form-list.button{
+     margin:15px 0 10px 0;
+     text-align:center;
+     height: auto;
+     overflow: hidden;
+ }
+.form-list button{
+    margin:0 20px;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+.form-list input{
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    padding: 3px 8px;
+    background: #f9f9f9;
+    color: #666;
+    height: 37px;
+}
+ .form-list .iphone{width: 100%;}
+ .form-list .checkcode{
+     float:left;
+     width: 94px;
+     margin: 0 20px 0 0;
+ }
+ .form-list .code{
+     float:left;
+     line-height: 0;
+     margin: 0 20px 0 0;
+ }
+ .form-list .code img{
+     height: 35px;
+     float:left;
+ }
+ .form-list .other-code{
+     float:left;
+     line-height: 35px;
+     height: 35px;
+     color: #ff6c00;
+     font-size: 14px;
+     text-decoration: none;
+ }
+ .form-list .obtain{
+     position: absolute;
+     top: 0; right: 0;
+     height: 37px;
+ }
+ .form-list .obtain .right{
+     width:20px;
+     height: 20px;
+     background-position: -248px -53px;
+     margin:8px 8px 0 0;
+ }
+.form-list .obtain a{
+    display: block;
+    float:right;
+    height: 27px;
+    margin: 5px 5px 5px 0;
+    background: #008CE1;
+    padding: 0 15px;
+    line-height: 27px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.form-list .auto-login{
+    float:left;
+    height: 37px;
+    line-height: 37px;
+    font-size: 14px;
+    color: #666;
+}
+ .form-list .auto-login input{
+     float: left;
+     margin:0 10px 0 0;
+ }
+ .form-list .logined{
+     background:#EC6917;
+     cursor: pointer;
+     width: 120px;
+     outline: none;
+ }
+ .form-list .register{
+     background:#008CE1;
+     cursor: pointer;
+     width: 120px;
+     outline: none;
+ }
+ .form-space{
+     height: 25px;
+     border: 0;
+ }
+.form-space.warning{
+    line-height: 25px;
+    color: #ff3300;
+    font-size: 12px;
+}
+.form-space.warning i{
+    width: 20px;
+    height: 25px;
+    background-position: -253px -90px;
+    vertical-align: -30%;
+}
+.third-party{
+    overflow: hidden;
+    position: relative;
+}
+.third-party .text{
+    position: absolute;
+    top: 8px;  left: 50%;
+    background:#fff;
+    color: #666;
+    font-size: 16px;
+    display: inline-block;
+    padding: 3px 5px;
+    margin-left: -61px;
+}
+.third-party .list{
+    border-top: 1px dashed #d3d3d3;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+ .third-party .list a{
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     margin:35px 30px 0;
+ }
+.third-party .list a.weixin{background-position: -159px -453px;}
+.third-party .list a.qq{background-position: -159px -402px}
+.ph-log{
+    float: right;
+    font-size: 14px;
+    color: #008CE1;
+    height: 30px;
+    line-height: 43px;
+    text-decoration: none;
+}
+.forget-word{
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: solid !important;
+    margin-left: 155px;
+}

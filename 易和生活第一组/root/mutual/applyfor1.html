@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>易和生活港</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/applyfor.css">
+    <script type="text/javascript" src=""></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <!--<script src="../js/geo.js"></script>-->
+
+</head>
+<body>
+<!--易和生活港 Header  公用部分 引用base.css-->
+<div id="header">
+    <!--topnav-->
+    <div class="top-nav">
+        <div class="type-area">
+            <div class="select-city top-nav-left">
+                <p>所在城市: <a href="">郑州</a></p>
+            </div>
+            <ul class="top-nav-right">
+                <li><a href="" id="login">登录</a></li>
+                <li><a href="" id="register">注册</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的订单</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我的消息</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">我是商家</a></li>
+                <li class="top-i">|</li>
+                <li><a href="">400-100-0907</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--head-nav-->
+    <div class="head-nav type-area">
+        <!--logo-->
+        <div class="logo">
+            <a href=""><img src="../images/logo.png" alt="logo"></a>
+        </div>
+        <!--search-->
+        <div id="search">
+
+            <ul class="shop">
+                <li class="actived yh-shopli">商家</li>
+                <li class="yh-shopli">商店</li>
+            </ul>
+
+            <div class="search-input">
+                <input type="text" class="keywords" />
+                <button class="search-btn"><i class="search-icon"></i></button>
+            </div>
+
+            <div class="yh-hot">
+                <p class="hot"> <span >热门 :</span><a href="">烤肉</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+
+                <p class="hot none"> <span>热门  :</span><a href="">烤鸡</a><a href="">麻辣香锅</a><a href="">美发</a></p>
+            </div>
+        </div>
+        <div class="shop-cart">
+            <div><i class="cart-ico1"></i><a href="">我的易和</a><i class="cart-ico3"></i></div>
+            <div><i class="cart-ico2"></i><a href="">购物车</a><i class="cart-ico3"></i></div>
+        </div>
+    </div>
+
+    <div class="main-nav type-area">
+        <div class="first-meau">
+            <h3 class="fir-h3">行业分类<i class="firs-ic1 fir1.rot"></i></h3>
+            <div class="meau-drop">
+                <ul class="firs">
+                    <li class="fir-item"><a href="">餐饮</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">服饰</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">娱乐</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">家具</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">零售</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">日化</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">建材</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">酒店</a><i class="firs-ic2"></i></li>
+                    <li class="fir-item"><a href="">旅游</a><i class="firs-ic2"></i></li>
+                </ul>
+                <ul class="sub-meau">
+                    <li class="item-list active">
+                        <div>
+                            <a href="">火锅</a>
+                            <a href="">自助餐</a>
+                            <a href="">小吃快餐</a>
+                            <a href="">日韩料理</a>
+                            <a href="">西餐</a>
+                            <a href="">烧烤烧肉</a>
+                            <a href="">东北菜</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list ">
+                        <div>
+                            <a href="">男装</a>
+                            <a href="">凉鞋凉拖</a>
+                            <a href="">潮流女包</a>
+                            <a href="">精品男包</a>
+                            <a href="">功能箱包</a>
+                            <a href="">女装</a>
+                        </div>
+                    </li>
+
+                    <li class="item-list">
+                        <div>
+                            <a href="">桌游/电玩</a>
+                            <a href="">运动健身</a>
+                            <a href="">足疗按摩</a>
+                            <a href="">洗浴汗蒸</a>
+                            <a href="">温泉</a>
+                            <a href="">DIY手工</a>
+                            <a href="">密室逃脱</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">成套家具</a>
+                            <a href="">床类柜类</a>
+                            <a href="">床垫</a>
+                            <a href="">沙发桌类</a>
+                            <a href="">椅凳架</a>
+                            <a href="">箱类</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">超市</a>
+                            <a href="">水果生鲜</a>
+                            <a href="">日用品</a>
+                            <a href="">百货</a>
+                            <a href="">配件</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">面部护理</a>
+                            <a href="">洗发护发</a>
+                            <a href="">身体护理</a>
+                            <a href="">口腔护理</a>
+                            <a href="">女性护理</a>
+                            <a href="">香水彩妆</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">基础建材</a>
+                            <a href="">卫浴洁具</a>
+                            <a href="">厨卫电器</a>
+                            <a href="">卫浴五金</a>
+                            <a href="">地板地暖</a>
+                            <a href="">灯具开关</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">经济型酒店</a>
+                            <a href="">豪华酒店</a>
+                            <a href="">主题酒店</a>
+                            <a href="">度假酒店</a>
+                            <a href="">公寓型酒店</a>
+                            <a href="">青年旅社</a>
+                        </div>
+                    </li>
+                    <li class="item-list">
+                        <div>
+                            <a href="">温泉</a>
+                            <a href="">景点主题</a>
+                            <a href="">公园</a>
+                            <a href="">水上公园</a>
+                            <a href="">动植物园</a>
+                            <a href="">海洋馆</a>
+                            <a href="">展览馆</a>
+                            <a href="">游船</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="second-meau">
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="" class="top-join">精选品牌</a></li>
+            <li><a href="">今日特价</a></li>
+            <li><a href="">积分商城</a></li>
+            <li><a href="">加入易和</a></li>
+            <li class="online-message">
+                <a href="">在线客服</a>
+                <div class="tooltip">
+                    <a href="">QQ客服1</a>
+                    <a href="">QQ客服2</a>
+                    <a href="">QQ客服3</a>
+                    <img src="../images/code.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!---------------------------------------------------------------------------------------------------->
+<!--content-->
+<!--申请入驻-->
+<div class="apply-content type-area">
+    <h3 class="apply-tit">您当前的位置: <a href="../index.html">首页</a> > <span class="apply-tit">申请入驻</span></h3>
+    <div class="settled">
+        <div class="settled-body">
+            <div class="step" style="width: 900px;">
+                <div class="group">1、提交资料</div>
+                <i class="icon arrow3"></i>
+                <div class="group s1">2、确认协议</div>
+                <i class="icon arrow1"></i>
+                <div class="group">3、支付保证金</div>
+                <i class="icon arrow2"></i>
+                <div class="group">4、审核入驻</div>
+            </div>
+
+            <div class="xys">
+                <div style="overflow: hidden">
+                    <div style="float: left; color: #000; font-size: 16px;">所从事的具体行业：________<span style="text-decoration: underline;">娱乐</span>________</div>
+                    <div style="float: right; color: #000; font-size: 16px;">合同编号：________<span style="text-decoration: underline;">201710242824</span>________</div>
+                </div>
+                <h3>易和生活港网络平台商家入驻协议</h3>
+                <div style="color: #000; font-size: 16px">
+                    本协议由您与易和网络科技有限公司共同缔结，本协议具有法律效力。请您仔细阅读填写，不得以任何原因作为协议无效的理由。<br>
+                    本协议中:<br>
+                    1. 协议双方合称“协议方”。<br>
+                    2. 消费者统称为“会员”。<br>
+                    3. 本协议中的“交易额”指您所销售商品的价格。<br>
+                    4.“易和生活港”网络平台归属于易和网络科技有限公司，在协议中统称“易和”，域名为“youhopelife.com”。<br>
+                    一、双方协议签订：<br>
+                    您填写此协议，视为同意易和条款。易和审核通过后，准予您使用注册的账号登录商家端APP，视为双方达成协议正式生效，本协议即对双方产生约束。如果您不同意本协议的约定，您应该立即停止注册程序或停止使用易和平台服务。（填写本协议，具有法律效力，请您自行打印保留，如有法律纠纷，作为与易和网签版本核对的依据。）<br>
+                    二、入驻规则：<br>
+                    （一）易和按照每笔实际交易额的  0  % 收取您管理费和技术服务费。<br>
+                    （二）您自愿按约定，为会员在每一笔实际交易额中提供积分，比例为[   0   ] %（1积分=人民币1元），在交易中等值使用。所产生的积分，除首次交易不得使用之外，允许会员自愿在以后的每笔交易中，全部或部分使用积分消费。<br>
+                    （三） 会员使用积分消费，您仍按照您与易和约定的积分比例产生积分。<br>
+                    （四） 您独立进行的打折活动，在打折价格的基础上，仍按照您与易和的约定，允许会员使用积分和产生积分。<br>
+                    （五）您与会员的结算方式：<br>
+                    1. 您告知会员实际交易额后，会员通过扫描二维码或用户端APP，输入实际交易额和自愿使用的积分数进行付款。<br>
+                    2. 付款成功后，您可通过商家端APP，同时核对会员输入的消费金额以及使用的积分数，无误后，即视为交易完成。<br>
+                    3. 允许会员使用：微信支付、支付宝支付、银联支付。<br>
+                    （六）您与易和的结算方式：<br>
+                    1.  按照会员每一笔实际交易额，扣除   0  %易和管理费和技术服务费，再扣除您自愿返还给会员的积分比例数，为您的实际收益，作为您与易和结算的依据。<br>
+                    2. 会员每笔交易所使用的积分数，由易和付款于您，不影响您与易和约定的结算方式及金额。<br>
+                    （七）结算时间：<br>
+                    1.  交易成交日隔日与易和结算。<br>
+                    2.  需物流运送的商品，在会员确认付款并收货后，七日内无退换货发生，视为交易完成，隔日与易和进行结算。<br>
+                    三、保证金约定：<br>
+                    （一）您所经营的商品需要物流发货的，在审核通过后，需经保证金付款页面，一次性交纳质量诚信保证金  1000  元人民币（大写：壹仟元整）除此，以任何方式向其它任何账号缴纳视为无效。<br>
+                    （二）保证金主要用于保证商家按照易和的规则进行经营，易和有权对商家进行监管，确保保证金足额。如有违规，易和将扣除相应保证金，对会员支付违约赔偿。<br>
+                    （三）下例两种情况，易和有权从产生的交易额中足额扣除：<br>
+                    1. 注册成功而未缴纳保证金。<br>
+                    2. 如因质量等问题，保证金被扣除后，不足部分直接从产生的交易额中扣除，补齐余额。<br>
+                    （四）保证金在双方合约解除后  10  个工作日内结算退回。<br>
+                    四、平台标识及管理：<br>
+                    （一）按照要求，易和平台加盟标识牌必须悬挂在门面显眼处。<br>
+                    （二）易和二维码必须按要求摆放在易于看到的位置，便于使用。<br>
+                    （三） 不得污损易和标识牌及二维码，保证其整洁和完整。<br>
+                    五、易和的权利与义务：<br>
+                    （一）易和负责对您进行平台使用指导，确保您正常使用。<br>
+                    （二）易和有权对“易和生活港” 应用系统进行升级或修改，无需获得您的同意。如您不同意相关变更，请您停止注册及使用。<br>
+                    （三）易和须保证您数据的安全性，不得将您的数据透露或转让给第三方。<br>
+                    （四）在使用易和期间，如有下列情形之一的，易和有权终止对您的服务并解除本协议：<br>
+                    1.违反国家法律、法规，出现违法违规行为。<br>
+                    2. 直销、传销及非法集资等非法行为。<br>
+                    3. 扰乱易和平台交易秩序的。<br>
+                    4. 发布违法虚假信息或广告造成易和损失的。<br>
+                    5. 因违法被取缔或自行停业的。<br>
+                    6. 因食品安全和客户投诉而产生不良负面影响的。<br>
+                    六、您的权利与义务：<br>
+                    （一） 您应按照国家相关规定，独自承担在使用易和平台服务过程中，所产生的应纳税赋，如违犯法律、法规，后果自负。按相关规定，若需要通过易和代扣代缴的税赋，由易和平台从您的交易额中直接扣除代缴。<br>
+                    （二） 保证合法经营，确保产品经过国家相关部门认证为合格产品。负责对所上传商品的信息进行及时更新和维护，确保所上传商品信息真实、准确。<br>
+                    （三） 您注册成功后，务必保管好您的账户及密码，并对所使用的账号产生的不良后果负全部法律责任。如果发现任何人不当使用您的账户或有任何其他可能危及您的账户安全的情形时，您应当立即以有效方式通知易和，要求易和暂停相关服务。<br>
+                    （四） 您理解易和对您的请求采取行动需要合理时间，易和对在采取行动前已经产生的后果（包括但不限于您的任何损失）不承担任何责任。<br>
+                    （五） 不得作出任何有损于易和形象和声誉的言论及行动。如发现，易和有权立即终止本协议，视情节追究您的法律责任，并赔偿易和所有损失。<br>
+                    （六）有下列情形之一的，您有权终止与易和的协议：<br>
+                    1. 易和故意泄露或贩卖您所管辖项目业主信息给第三方的。<br>
+                    2. 易和发布违法或虚假信息造成您损失的。<br>
+                    3. 易和因违法被取缔或自行停业的。<br>
+                    七、违约条款：<br>
+                    （一） 您应严格遵守本协议条款及《易和生活港总规则》<br>
+                    （二） 您出现违约行为，易和有权利终止与您的协议，并终止对您的所有服务，按与您约定的结算方式，清算相关账目。<br>
+                    八、其他：<br>
+                    （一） 易和有权根据需要适时修改制订补充协议或各类规则，并以网站公告的方式进行发布，不再单独通知您。变更后的补充协议和规则一经在网站公告后立即自动生效。<br>
+                    （二） 如您不同意相关变更，应当立即停止使用易和平台服务。您继续使用，即表示您接收经修订的补充协议和规则。<br>
+                    （三） 如果您想退出易和平台，需提前  15  个工作日通知易和官方，进行业务数据清理、账目结算及关闭您所使用的后台。<br>
+                    （四） 因不可抗力或者其他意外事件，使得本协议不能履行的，协议双方均不承担违约责任。<br>
+                    （五） 如果产生有关本协议的存在、效力、履行、解释、终止的争议，双方应通过友好协商解决，如果争议发生之日起三个月内通过协商不能解决的，或者任何一方拒绝协商的，则任何一方均可诉请本协议签定地人民法院裁决，合同签署地为山东省烟台市。<br>
+                </div>
+            </div>
+
+
+            <!--<div class="form-list" style="text-align: center">-->
+                <!--<button class="submit" id="submit" style="margin-left: 34%;" shopid="154">我已仔细阅读并确认协议，点击签约</button>-->
+            <!--</div>-->
+            <a href="./applyfor2.html" class="submit">我已仔细阅读并确认协议，点击签约</a>
+
+        </div>
+    </div>
+
+</div>
+<!--<h1 style="height: 1000px;"></h1>-->
+<!---------------------------------------------------------------------------------------------------->
+<!--footer-->
+<div id="footer">
+
+    <div class="foot-top">
+        <ul class=" type-area">
+            <li>
+                <a href=""><i class="f-p1"></i>正品保障</a>
+            </li>
+            <li>
+                <a href="" ><i class="f-p2"></i>全程跟踪</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p3"></i>客户监督</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p4"></i>售后无忧</a>
+            </li>
+            <li>
+                <a href=""><i class="f-p5"></i>准时到达</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-center type-area">
+        <div class="foot-logo">
+            <a href=""><img src="../images/footer_logo.png" alt=""></a>
+        </div>
+        <div class="foot-code">
+            <div class="code left">
+                <img src="../images/code.jpg" alt="">
+                <h4><i class="f-p6"></i>Android下载</h4>
+            </div>
+            <div class="code right">
+                <img src="../images/code1.png" alt="">
+                <h4><i class="f-p7"></i>IOS下载</h4>
+            </div>
+        </div>
+        <ul class="foot-nav">
+            <li>
+                <h4>关于易和</h4>
+                <a href="">新用户注册</a>
+                <a href="">在线下单</a>
+                <a href="">支付方式</a>
+            </li>
+            <li>
+                <h4>配送说明</h4>
+                <a href="">运费说明</a>
+                <a href="">运费方式</a>
+                <a href="">发票说明</a>
+            </li>
+            <li>
+                <h4>售后服务</h4>
+                <a href="">退换货规则</a>
+                <a href="">服务承诺保障</a>
+                <a href="">验货与签收</a>
+            </li>
+            <li>
+                <h4>加盟易和</h4>
+                <a href="">加盟条款</a>
+                <a href="">公司介绍</a>
+                <a href="">积分介绍</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="foot-bottom">
+        <div class="type-area">
+            <p class="copyright">版权所有 © 2016易和生活港 保留所有权利 | 鲁ICP备：16022180号-1</p>
+            <p>易和生活 众享品质</p>
+            <p><a href="">北京澳环科技提供技术支持</a></p>
+        </div>
+        <img class="cmzz" src="../images/cmzz.gif" alt="cmzz">
+    </div>
+
+</div>
+
+</body>
+
+</html>

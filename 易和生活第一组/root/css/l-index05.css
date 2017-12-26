@@ -1,0 +1,261 @@
+@charset "utf-8";
+.l-center {
+	width: 1190px;
+	min-width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.l-wrapper {
+	background-color: rgb(242,242,242);
+}
+.l-center .l-selfcenter {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	line-height: 100px;
+	font-weight: lighter;
+	width: 1190px;
+	height: 100px;
+	background: url(../images/blue_03.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.l-main {
+	height: 103px;
+}
+.l-main div {
+	display: inline-block;
+}
+.l-main .l-left {
+	float: left;
+}
+.l-main .l-left span:nth-child(1){
+	font-size: 36px;
+	color: rgb(247,109,18);
+	line-height: 95px;
+}
+.l-main .l-left span:nth-child(2){
+	font-size: 36px;
+	color: rgb(45,138,225);
+	line-height: 95px;
+}
+.l-main .l-left span:nth-child(3){
+	font-size: 18px;
+	line-height: 95px;
+	margin-left: 15px;
+}
+.l-main .l-right {
+	float: right;
+}
+.l-main .l-right button{
+	width: 88px;
+	height: 28px;
+	font-size: 16px;
+	color: rgb(102,102,102);
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 35px;
+	margin-left: 5px;
+}
+
+/*轮播图*/
+.pageControl {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border:2px solid white;
+            position: absolute;
+            cursor: pointer;
+            z-index: 999;
+    }
+#scroll {
+    margin: 0 auto;
+    width: 1190px;
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+}
+#scroll > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: left .7s ease-in-out;
+}
+
+.l-sell {
+	height: auto;
+	border-top: 3px solid rgb(48,138,225);
+}
+.l-sellleft {
+	width: 230px;
+	float: left;
+	display: inline-block;
+}
+.sellone {
+	width: 210px;
+	height: 48px;
+	border: 1px solid #d2d2d2;
+	margin-top: -1px;
+	padding-left: 20px;
+	line-height: 48px;
+	font-size: 16px;
+	background-color: rgb(255,255,255);
+}
+.l-sellone{
+	width: 233px;
+	background-color: rgb(255,255,255);
+	float: left;
+}
+.l-sellone li:first-child {
+	margin-top: 0;
+}
+.sellone .sellthree {
+	display: inline-block;
+	width: 65px;
+}
+.sellone .selltwo {
+	margin-left: 100px;
+}
+.l-selfright,.l-button {
+	width: 945px;
+	background-color: #fff;
+	border: 1px solid #d2d2d2;
+	border-top: none;
+	/*float: right;*/
+	display: inline-block;
+	height: auto;
+}
+.l-button {
+	width:905px;
+	height: 60px;
+	padding: 20px;
+}
+.l-redcar {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(242,242,242);
+}
+.redcar {
+	width: 220px;
+	height: 120px;
+	background-image: url(../images/car_03.png);	
+}
+.redcar > span {
+	display: inline-block;
+	position: relative;
+	top: 90px;
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-image: url(../images/mban_06.png);
+	color: #fff;
+}
+.l-cardown {
+	margin:5px;
+}
+.cardown1,.cardown2,.cardown3{
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color:red;
+	text-indent: 30px;
+}
+.cardown1{
+		background:url(../images/头像.png) no-repeat 5px center;
+}
+.cardown2{
+		background:url(../images/手机.png) no-repeat 5px center;
+		position: relative; right: 3px;
+}
+.cardown3{
+		background:url(../images/定位.png) no-repeat 5px center;
+}
+
+.l-button span {
+	display: inline-block;
+	width: 38px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #000;
+	margin-left: -1px;
+}
+.l-button button {
+	width: 63px;
+	height: 33px;
+	background-color: #fff;
+	color: rgb(70,159,229);
+	font-weight: lighter;
+	border: 1px solid #000;
+	margin-left: 20px;
+	margin-bottom: 100px;
+}
+.l-button .l-buttons {
+	width: 50px;
+	height: 33px;
+}
+.l-sellone > li {
+	background: white url(../images/箭头1.png) no-repeat 190px center;
+}
+.l-sellone li:hover  {
+	background:#008ce7  url(../images/箭头2.png) no-repeat 190px center;
+	color: #fff;
+}
+.hove-show {
+	width:330px;
+	background-color:white;
+	position: relative;
+	z-index: 30;
+	left: 210px;
+	top: -50px;
+	padding: 0 30px 0 40px;
+}
+.hove-show > div {
+	padding: 10px 0 5px 0;
+	border-bottom: 1px dotted #ddd;
+}
+.hove-show > div > a {
+	height:14px;
+	line-height: 14px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	layout-grid-char: 24px;
+	display: inline-block;
+	padding: 0 15px;
+	border-right: 1px solid black;
+}
+.hove-show > div > a:hover {
+	color: #fc6c04;
+	text-decoration: underline;
+}
+.add-span {
+	display: inline-block;
+	font-size: 14px;
+	background: url(../images/箭头1.png) no-repeat left;
+   text-indent:15px;
+}
+.l-button>.l-number {
+	border: none;
+	width: 80px;
+	display: inline-block;
+}
+.l-button>.l-page {
+	display: inline-block;
+	 border: none;
+	 width: 125px;
+}
+.page-show {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+

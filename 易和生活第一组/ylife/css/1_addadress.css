@@ -1,0 +1,119 @@
+#p-self-right {
+	vertical-align:top;
+	width: 985px;
+	height: auto;
+	margin-left:21px ;
+	margin-bottom:40px;
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	background-color: white;
+}
+#p-self-wrapper {
+	width: 1190px;
+	margin: 0 auto;
+	height: auto;
+}
+/*兑换积分标题*/
+.p-adress-title {
+	padding: 15px 20px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #d2d2d2;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color:#008de1;
+}
+#p-phone {
+	padding: 40px 0 120px 40px;
+	width:905px;
+	height: 330px;
+}
+#p-phone .p-form {
+	display:table;
+	width:905px;
+
+}
+#p-phone .p-form .p-row {
+	display: table-row;
+	height: 60px;
+	line-height: 60px;
+}
+#p-phone .p-form  .p-row .p-cell {
+	display: table-cell;
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin-bottom: 20px;
+}
+ #p-phone .p-form  .p-row .p-cell:first-child {
+	text-align: right;
+	padding-right: 20px;
+}
+ #p-phone .p-form  .p-row .p-cell:first-child > span:first-child {
+  color:#ec6a17;
+ }
+.p-cell input {
+	text-align: center;
+ 	height: 35px;
+ 	border: 1px solid #D3D3D3;
+   outline: none;
+   font-size: 20px;	
+ }
+ #p-uname {
+ 	width: 330px;
+ }
+ #p-adress {
+ 	width: 460px;
+ }
+  #p-phoneNum {
+ 	width: 150px;
+ }
+  #p-tel-head {
+ 	width: 50px;
+ 	margin-right: 5px;
+ }
+   #p-tel-body {
+ 	width:120px;
+ }
+ #p-uset {
+ 	width:25px;
+ 	height: 25px;
+ 	background-color: white;
+ }
+ #p-usubmit {
+ 	width: 170px;
+ 	height: 45px;
+ 	line-height: 45px;
+ 	color:white;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	outline: none;
+ 	border: none;
+ 	background-color: #ec6a17;
+ }
+ .p-sjx {
+ 	position: absolute;
+ 	top:20px;
+ 	display: inline-block;
+ 	width: 16px;height: 16px;
+ 	background: url(../images/p-形.png) no-repeat center;
+ }
+ .p-haha {
+ 	position: relative;
+ }
+ .p-sjx-1 {
+ 	left:184px;
+ }
+ .p-sjx-2 {
+ 	left:400px;
+ }
+ .p-sjx-3 {
+ 	left:616px;
+ }
+
+
+
+
+
+
+
+

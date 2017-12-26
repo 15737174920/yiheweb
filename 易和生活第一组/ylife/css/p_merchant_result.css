@@ -1,0 +1,104 @@
+/*搜索结果商家页*/
+.p-s-wrapper {
+	width: 100%;
+	background-color:#f2f2f2;
+	padding-bottom: 30px; 
+	height: auto;
+}
+#p-s-search {
+   width: 1190px;
+   height: auto;
+   margin: 0 auto;
+   padding: 20px 0 20px 0;
+}
+#p-s-search >#p-s-location {
+	color: black;
+	padding-bottom: 20px;
+	width: 1190px;
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 1px;
+	height: 20px;
+	line-height: 20px;
+}
+#p-s-location .p-s-arror {
+	vertical-align: top;
+	background:url(../images/arror1.png) no-repeat center;
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+#p-s-location .p-search-shop {
+	color: #fe6e00;
+}
+#p-search-show {
+	background-color: white;
+	width: 1170px;
+	padding: 20px 20px 20px 0;
+	display: table;
+	border: 1px solid #f2f2f2;
+}
+#p-search-show >a {
+display: inline-block;
+margin-left: 20px;
+width: 270px;
+height: 250px;
+text-align: left;
+padding-bottom: 10px;
+position: relative;
+}
+#p-search-show >a>p{
+	font-size:14px;
+	height: 35px;
+	line-height: 35px;
+	color: black;
+	text-indent:30px;
+}
+#p-search-show >a>p>span {
+	display: inline-block;
+	vertical-align: top;
+	width:20px;
+	height:27px;
+}
+#p-search-show >a>p:nth-child(2){
+		background:url(../images/头像.png) no-repeat 5px center;
+}
+#p-search-show >a>p:nth-child(3){
+		background:url(../images/手机.png) no-repeat 5px center;
+}
+#p-search-show >a>p:nth-child(4){
+		background:url(../images/定位.png) no-repeat 5px center;
+}
+#p-search-show .p-search-info{
+top: 120px;
+}
+#p-search-show .p-search-info .p-search-meng {
+	opacity: .6;
+	background-color: black;
+	width: 270px;
+	height: 30px;
+}
+#p-search-show .p-search-info,#p-search-show .p-search-info .p-search-word  {
+text-align: center;
+	color: white;
+	width: 270px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	font-size:20px;
+	left: 0;
+	overflow: hidden;
+}
+#p-search-show .p-search-info .p-search-word {	
+	top: 0;
+}
+
+
+
+
+
+
+
+
+

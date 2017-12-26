@@ -1,0 +1,135 @@
+/*个人中心公共部分*/
+#p-selfCenter {
+	width: 100%;
+	margin-top: 20px;
+}
+#p-self-wrapper {
+	width: 1190px;
+	margin: 0 auto;
+	height: 600px;
+}
+/*左边*/
+#p-self-left {
+	display: inline-block;
+	height: 545px;
+	width: 175px;
+	border: 1px solid #d2d2d2;
+}
+#p-self-left .p-title {
+	width: 175px;
+	height: 55px;
+	border-bottom: 1px solid #d2d2d2;
+	text-indent: 20px;
+	font-size: 18px;
+	line-height: 55px;
+	letter-spacing: 1px;
+}
+#p-self-left >.p-title >.p-icon{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#p-self-left >.p-title >.p-icon {
+	background:url(../images/icons.png) 5px -15px;	
+}
+#p-self-left .p-icon1 {
+	vertical-align: top;
+	margin-left: 10px;
+	background:url(../images/arror1.png) no-repeat center;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.p-self-firstList>li {
+	height: 35px;
+	line-height: 35px;
+	margin: 0 20px;
+	text-align:left;
+	font-size: 14px;
+}
+.p-self-firstList>li:nth-child(1) {
+	height: 40px;
+	line-height: 40px;
+}
+.p-self-firstList>li:nth-child(1) >span {
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+#p-self-left >.p-self-firstList >li>a:hover {
+	color:#ec6b18;
+	text-decoration: underline;
+}
+/*个人中心右边部分*/
+#p-self-right {
+	vertical-align: top;
+	height: 548px;
+	width: 985px;
+	margin-left: 20px;
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	font-size: 40px;
+}
+#p-self-right .l-self p{
+	height: 56px;
+	line-height: 60px;
+	font-size: 18px;
+	font-weight: lighter;
+	padding-left: 25px;
+	cursor: pointer;
+	color: rgb(78,163,227);
+	border-bottom: 1px solid #d2d2d2;
+}
+.l-self li {
+	font-size: 16px;
+	margin: 20px 16px;
+	display: inline-block;
+	/*background-color: red;*/
+}
+.l-pictc {
+	text-align: center;
+	margin-top: 123px;
+	/*margin-bottom: 300px;*/
+}
+.l-look {
+	display: inline-block;
+}
+.l-look span{
+	vertical-align: top;
+	font-size: 18px;
+	margin-left: 45px;
+	font-weight: lighter;
+}
+.l-look .l-kong {
+	position: relative;
+	bottom: 50px;
+}
+.l-look .l-king {
+	font-size: 18px;
+	margin-left: 45px;
+	font-weight: lighter;
+	display: inline-block;
+	position: relative;
+	bottom: 30px;
+	border-radius: 5px;
+	width: 170px;
+	height: 45px;
+	color: #fff;
+	background-color: #f60;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

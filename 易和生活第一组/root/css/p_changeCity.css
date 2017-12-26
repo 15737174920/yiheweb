@@ -1,0 +1,108 @@
+.p-body-wrapper {
+	width: 100%;
+	background-color: #f2f2f2;
+	height: auto;
+}
+#p-city-body {
+	width: 1190px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0 40px 0;
+}
+#p-city-body > .p-c-location {
+	padding-bottom: 20px;
+	font-size:18px;
+	color: black;
+	letter-spacing: 1px;
+}
+#p-city-body > .p-c-location > .p-c{
+	display: inline-block;
+	padding-left: 20px;
+	background:url(../images/p-arror.png) no-repeat left;
+}
+#p-city-body > .p-c-location > .p-c-now {
+	color: #f06b0f;
+}
+.p-city {
+	width: 1190px;
+	background-color: white;
+	height: auto;
+	border: 1px solid #d3d3d3;
+}
+#p-nowCity>li {
+	text-indent: 20px;
+	color: #f06b0f;
+	height: 45px;
+	line-height: 45px;
+	width:1190px;
+	border-bottom: 1px solid #d3d3d3;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+#p-nowCity>li >a {
+	margin: 10px;
+}
+#p-nowCity>li:nth-child(1) {
+	color:#666;
+}
+#p-nowCity>li:nth-child(1) >a {
+	color: #f06b0f;
+}
+#p-city-title {
+	margin:15px 20px 0 20px;
+	height: 34px;
+	line-height: 34px;
+	color: white;
+	background-color:#008de1;
+	text-align: center;
+	width: 150px;
+	border-radius: 5px;
+    font-size: 14px;
+    position: relative;
+}
+#p-city-title::after {
+	content: "";
+    position:absolute;
+    top: 100%;
+    left: 30%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #008de1 transparent transparent transparent;
+}
+#p-c-list {
+	padding: 20px 20px;
+	width:1150px ;
+}
+#p-c-list > li {
+	display: table;
+	margin-bottom: 20px;
+}
+#p-c-list > li >div:nth-child(1) {
+	display: inline-block;
+	height: 45px;
+	width: 54px;
+	line-height: 45px;
+	border: 1px solid #f0f0f0;
+	margin-right: 15px;
+	text-align: center;
+	font-size: 18px;
+}
+#p-c-list > li >div:nth-child(2) {
+	display: inline-block;
+	width: 1070px;
+	line-height: 45px;
+	vertical-align: top;
+}
+#p-c-list > li >div:nth-child(2)>span {
+	display: inline-block;
+	margin-right: 25px;
+	font-size:20px;
+	cursor: pointer;
+}
+#p-c-list > li:hover{
+	background-color: #f0f0f0;
+}
+#p-c-list > li:hover>div:nth-child(1) {
+	background-color: #008de1;
+	color: white;
+}

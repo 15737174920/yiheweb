@@ -1,0 +1,207 @@
+@charset "utf-8";
+li {
+	display: inline-block;
+}
+.l-header {
+	background-color: rgb(238,238,238);
+	height: 35px;
+	line-height: 35px;
+}
+.l-left {
+	display: inline-block;
+}
+
+.l-right {
+	display: inline-block;
+	float: right;
+}
+.l-right li {
+	padding: 0 3px;
+}
+.l-right .l-numb {
+	font-size: 12px;
+	color: red;
+	font-weight: lighter;
+}
+.l-sx {
+	color: rgb(153,153,153);
+}
+.l-main {
+	width: 1188px;
+	border: 1px solid rgb(211,211,211);
+	margin-top: 25px;
+}
+.l-picta  img:nth-child(1) {
+	display: inline-block;
+	margin-right: 248px;
+}
+.l-picta  img:nth-child(2) {
+	margin-right: -15px;
+}
+.l-picta  img:nth-child(3) {
+	margin-right: -13px;
+}
+.l-picta {
+	margin: 40px 0 30px 40px;
+}
+.l-pictaa {
+	display: inline-block;
+	cursor: pointer;
+}
+.l-pictaa p {
+	font-size: 18px;
+	position: relative;
+	left: 65px;
+	top: 40px;
+}
+.l-pictb {
+	border-top: 1px solid rgb(211,211,211);
+	border-bottom: 1px solid rgb(211,211,211);
+	margin: 0 45px 0 40px;
+	padding-top: 45px;
+	padding-bottom: 20px;
+}
+.l-pictb span {
+	font-size: 28px;
+	margin-left: 20px;
+}
+
+
+.l-hailan {
+	margin:20px 40px 20px 35px;
+	/*border: 1px solid #d2d2d2;*/
+	font-size: 16px;
+}
+.l-hailan table {
+	border: 1px solid #d2d2d2;
+	margin-bottom: 20px;	
+}
+.l-hailan table tr {
+	border-bottom: 1px solid #d2d2d2;
+}
+.l-hailan table tr:nth-child(1) {
+	background-color: rgb(242,242,242);
+	border: none;
+}
+.l-hailan table tr:last-child {
+	height: 90px;
+}
+.l-hailan table tr:last-child p {
+	padding-left: 690px;
+	font-size: 16px;
+	color: #000;
+}
+.l-hailan table tr:last-child p:last-child {
+	color: #f60;
+}
+.l-hailan table tr td {
+	width: 140px;
+	text-align: center;
+}
+.l-hailan table tr td:nth-child(1) { 
+	width: 48px;
+	position: relative;
+}
+
+.l-hailan table tr td div {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #d2d2d2;
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+.l-hailan table tr:nth-child(1) td div {
+	border: 1px solid #f60;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+}
+.l-hailan table tr td:nth-child(2) { 
+	width: 350px;
+	text-align: left;
+	padding-left: 20px;
+}
+.l-hailan table tr td img {
+	vertical-align: middle;
+}
+.l-hailan table tr td p {
+	text-align: center;
+	color: rgb(153,153,153);
+}
+.l-hailan table tr td button {
+	width: 28px;
+	height: 28px;
+	font-size: 16px;
+	color: rgb(153,153,153);
+	vertical-align: middle;
+	margin:0;
+	padding: 0;
+}
+.l-hailan table tr td input {
+	width: 45px;
+	height: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+.l-hailan table tr td a {
+	color: blue;
+	font-weight: lighter;
+}
+.l-hailan table tr td a:hover {
+	color: red;
+}
+.l-all,.l-delete {
+	border: none;
+	font-size: 16px;
+	background-color: #fff;
+	color: rgb(56,130,199);
+	margin-right: 80px;
+}
+.l-sp {
+	font-size: 16px;
+	margin-left: 400px;
+}
+.l-price {
+	font-size: 24px;
+	color: #f60;
+}
+.l-total-sum {
+	width: 170px;
+	height: 40px;
+	background-color: #f60;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+.l-last {
+	margin-top: 40px;
+	border-top: 1px solid rgb(211,211,211);
+}
+.l-last p {
+	text-align: center;
+}
+.l-last p:first-child {
+	margin-top: 40px;
+	font-size: 16px;
+	color: rgb(153,153,153);
+	font-weight: lighter;
+}
+.l-last p:last-child {
+	padding-bottom: 40px;
+	color: rgb(45,138,225);
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+
+
+
+
+
+
+

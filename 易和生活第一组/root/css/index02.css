@@ -1,0 +1,38 @@
+#header{
+    width: 100%;
+    height: 33px;
+    /*border-bottom: 2px solid #2e8ae2;*/
+}
+#header .top-nav{
+    height: 33px;
+    line-height: 33px;
+    background-color: #eee;
+    color: #666666;
+}
+#header .top-nav .top-nav-left{
+    display: inline-block;
+    float: left;
+}
+#header .top-nav .top-nav-right{
+    float: right;
+}
+#header .top-nav .top-nav-right li{
+    display: inline-block;
+    padding: 0 3px;
+}
+#header .top-nav-right li #login{color: #C81623;}
+#header .top-nav-right .top-i{
+    color: #cdcccd;
+}
+.h_pie1{
+	width: 1181px;
+	height: 1126px;
+	border: 1px solid red;
+	margin: 20px auto;
+}
+
+
+
+
+
+

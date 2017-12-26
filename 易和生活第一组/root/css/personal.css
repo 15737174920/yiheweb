@@ -1,0 +1,342 @@
+@charset "utf-8";
+
+.per-content{
+    margin: 20px auto;
+}
+.per-content .per-left{
+    width: 173px;
+    height: 601px;
+    float: left;
+    border: 1px solid #d3d3d3;
+    background: #fff;
+}
+.per-content .per-left h3{
+    padding: 15px;
+    font-size: 16px;
+    color: #666;
+    border-bottom: 1px solid #d3d3d3;
+}
+.per-meau li{
+    height: 40px;
+}
+.per-left  h4{
+    line-height: 40px;
+    font-size: 16px;
+    margin: 0 15px;
+    color: #333;
+    position: relative;
+}
+.per-left .per-ico1{
+    vertical-align: middle;
+    width: 24px;
+    height: 28px;
+    background-position: 1px -15px;
+    display: inline-block;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    font-style: normal;
+}
+.per-left .per-ico2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: 33px -449px;
+    display: inline-block;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    font-style: normal;
+}
+.per-meau li a{
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 15px;
+    color: #666;
+    text-decoration: none;
+
+}
+.per-content .per-left .per-meau .per-active a{
+    color: #ff6c00;
+    text-decoration: underline;
+}
+
+
+.per-content .per-right{
+    margin: 0 0 0 195px;
+    min-height: 599px;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+
+}
+
+.per-content .per-right .right-mark{
+    padding: 18px 15px;
+    font-size: 16px;
+    color: #018DE2;
+    border-bottom: 1px solid #d3d3d3;
+}
+.yh-order{
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    height: 20px;
+    padding: 0 15px;
+}
+.yh-order a{
+    float: left;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666;
+    padding: 0 15px;
+    text-decoration: none;
+    border-right:1px solid #d3d3d3;
+}
+a.ord-select{
+    background: #FFE3D3;
+}
+.order-show{
+    /*padding: 180px 0 0;*/
+    text-align: center;
+}
+.yh-show{
+    height: 138px;
+    padding-top: 180px;
+}
+.yh-show img{
+    display: inline-block;
+    width: 120px;
+    height: 133px;
+    margin-left: 250px;
+}
+.per-btn{
+    display: inline-block;
+    height: 133px;
+    margin: 0 0 0 40px;
+    overflow: hidden;
+    width: 170px;
+}
+.per-btn span{
+    color: #666;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 0 0;
+    text-align: left;
+    width: 100%;
+}
+.per-btn a{
+    background: #ff6c00 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    margin: 40px 0 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*我的账号*/
+.user-info{
+    overflow: hidden;
+    padding: 15px;
+    background: #FEF4EB;
+    border: 1px solid #d3d3d3;
+}
+.user-info .user-ph{
+    float: left;
+    height: 100px;
+    width: 400px;
+    line-height: 100px;
+}
+.user-info .user-ph img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 20px 0 0;
+}
+.user-info .user-ph p{
+    font-size: 16px;
+}
+ .user-info .user-ph a{
+    color: #ff6c00;
+     font-size: 16px;
+     padding-left: 8px;
+}
+.user-info .user-money li{
+    display:  inline-block;
+    width: 180px;
+    height: 100px;
+}
+.user-info .user-money li span{
+    color: #666666;
+    line-height: 30px;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    font-size: 16px;
+}
+.user-info .user-money li .txt{
+    color: #ff6c00;
+    margin-top: 25px;
+}
+
+.per-vip{
+    overflow: hidden;
+    padding: 30px 15px;
+    border: 1px solid #d3d3d3;
+    border-top:  none;
+    height: 160px;
+}
+.per-vip h3{
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+.per-vip h3 i{
+    color: #ff6c00;
+    font-size: 24px;
+}
+.per-vip h3 a{
+    display: inline-block;
+    float: right;
+    margin: 10px  40px 0 0;
+    padding: 0 10px 0 10px;
+    background-color: #ff6c00;
+    color: #ffffff !important;
+    border-radius: 5px;
+}
+ .v1,.v2,.v3,.v4,.v5,.v6,.v7{
+    width: 55px;
+     display: inline-block;
+     background-color: #fff;
+     position: relative;
+     top: -85px;
+}
+ .v2{
+     left: 80px;
+ }
+ .v3{
+    left: 165px;
+ }
+ .v4{
+    left: 250px;
+ }
+ .v5{
+    left: 335px;
+ }
+ .v6{
+    left: 430px;
+ }
+ .v7{
+     left: 523px;
+ }
+ .selev i{
+     background-color: #ff6c00 !important;
+ }
+.per-vip .vvv i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin-left: 8px;
+}
+.per-vip .vvv span{
+    line-height: 25px;
+    font-size: 12.5px;
+}
+.per-pic{
+    margin-top: 80px;
+    overflow: hidden;
+    height: 280px;
+}
+
+
+/*账户充值*/
+.pay{
+    border: 1px solid #d3d3d3;
+}
+.payfor{
+    padding: 18px 15px;
+    font-size: 16px;
+    color: #666;
+    border: 1px solid #d3d3d3;
+}
+.payfor p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0  20px 0;
+}
+.payfor span{
+    color: #ff6c00;
+}
+.payfor input{
+    width: 170px;
+    height: 38px;
+    margin-left: 15px;
+}
+.payfor a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    width: 170px;
+    text-align: center;
+    background: #ff6c00;
+    margin: 20px 80px;
+}
+.czjl{
+    margin-top: 30px;
+    border: 1px solid #d3d3d3;
+    font-size: 16px;
+}
+.czjl h3{
+    padding: 18px 15px;
+    color: #018DE2;
+    border-bottom: 1px solid #d3d3d3;
+}
+.czjl ul{
+    display: block;
+    width: 953px;
+    height: 41px;
+    padding:0 15px;
+    margin: 5px 0;
+    border-bottom:1px solid #d3d3d3;
+}
+.czjl ul li{
+    width: 317px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 41px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

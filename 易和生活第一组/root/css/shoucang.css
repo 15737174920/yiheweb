@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+.per-content{
+    margin: 20px auto;
+
+}
+.per-content .per-left{
+    width: 173px;
+    height: 601px;
+    float: left;
+    border: 1px solid #d3d3d3;
+    background: #fff;
+}
+.per-content .per-left h3{
+    padding: 15px;
+    font-size: 16px;
+    color: #666;
+    border-bottom: 1px solid #d3d3d3;
+}
+.per-meau li{
+    height: 40px;
+}
+.per-left  h4{
+    line-height: 40px;
+    font-size: 16px;
+    margin: 0 15px;
+    color: #333;
+    position: relative;
+}
+.per-left .per-ico1{
+    vertical-align: middle;
+    width: 24px;
+    height: 28px;
+    background-position: 1px -15px;
+    display: inline-block;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    font-style: normal;
+}
+.per-left .per-ico2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: 33px -449px;
+    display: inline-block;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    font-style: normal;
+}
+.per-meau li a{
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 15px;
+    color: #666;
+    text-decoration: none;
+
+}
+.per-content .per-left .per-meau .per-active a{
+    color: #ff6c00;
+    text-decoration: underline;
+}
+.per-right {
+   border: 1px solid #ddd;
+    width: 986px;
+    height:796px;
+    margin-left: 200px;
+}
+.per-right >p{
+    font-size: 20px;
+    color: #2696e3;
+    border-bottom: 1px solid #ddd;
+   height: 60px;
+   line-height: 60px;
+   padding-left: 20px;
+}
+.per-right > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 942px;
+    margin: 0 auto;
+}
+.per-right > ul li {
+    width: 220px;
+    height: 335px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+.per-right > ul li img{
+    width: 220px;
+    height: 220px;
+}
+.qx{
+    border: 1px solid #ec6a17;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin-left: 5px;
+    color: #ec6a17;
+}
+.select-qx {
+     color: gray;
+     border: 1px solid gray;
+}
+#footer {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
